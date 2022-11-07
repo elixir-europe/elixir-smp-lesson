@@ -60,6 +60,12 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- stage1_inception.md
+- stage2_construction.md
+- stage3_application.md
+- stage4_production.md
+- stage5_publication.md
+- wrap-up_conclusions.md
 
 # Information for Learners
 learners: 
