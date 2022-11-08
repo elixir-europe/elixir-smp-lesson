@@ -9,7 +9,7 @@ Lesson structure:
 1. Target audience (probably similar to the 4OSS lesson)
     1. Research software Engineers (RSEs)(people writing the software need to be aware of the basic principles to follow)
     2. Researchers developing software (people writing the software need to be aware of the basic principles to follow)
-    3. PIs / Group Leads (they can use the SMP to ensure compliance with best practices)
+    3. Principal Investigators / Group Leads (they can use the SMP to ensure compliance with best practices)
     4. Project managers (they have a vested interest that in-house research output meets criteria and is sustainable)
 2. Levels:
     1. Remember
