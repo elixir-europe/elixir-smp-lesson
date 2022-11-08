@@ -75,6 +75,9 @@ instructors:
 
 # Learner Profiles
 profiles: 
+- software_engineer.md
+- researcher.md
+- group_leader.md
 
 # Customisation ---------------------------------------------
 #
