@@ -6,6 +6,13 @@ exercises: 2
 
 # Stage 5: Publication (Publishing software and/or research results obtained with the software)
 
+## Notes
+
+- What is important at this stage and why (general)
+- What are the SMP components (specific SMP questions) that are relevant here
+- Describe what each of these components mean and require.
+
+
 ## Learning Outcomes
 
 1. Describe what are the key activities that need to be made during the publication phase.
