@@ -25,10 +25,3 @@ Lesson structure:
     2. Understand the implications of the different choices provided in the SMP.
     3. Be able to fill in the required information across all sections of the SMP in the ELIXIR Software Management Wizard (SMW)
 
-
-Notes (for all stages):
-
-* What is important at this stage and why (general)
-* What are the SMP components (specific SMP questions) that are relevant here
-* Describe what each of these components mean, require and imply.
-
