@@ -30,5 +30,5 @@ Notes (for all stages):
 
 * What is important at this stage and why (general)
 * What are the SMP components (specific SMP questions) that are relevant here
-* Describe what each of these components mean and require.
+* Describe what each of these components mean, require and imply.
 
