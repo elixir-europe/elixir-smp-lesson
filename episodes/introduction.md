@@ -5,6 +5,7 @@ exercises: 2
 ---
 
 Lesson structure:
+
 1. Target audience (probably similar to the 4OSS lesson)
     1. Primary
         1. Developer/Researcher: people writing the software need to be aware of the basic principles to follow
@@ -15,15 +16,18 @@ Lesson structure:
         1. Describe
         2. Understand
         3. Apply
+
 2. Prerequisites:
     1. To have a working understanding of the research software development process
     2. Coding experience is useful, but not necessary
+
 3. Goals
     1. Understand which parts of the SMP are critical for each Software Development Stage
     2. Be able to fill in the required information across all sections of the SMP in the ELIXIR SMW
 
 
-Notes (for all stages)
+Notes (for all stages):
+
 * What is important at this stage and why (general)
 * What are the SMP components (specific SMP questions) that are relevant here
 * Describe what each of these components mean and require.
