@@ -15,15 +15,15 @@ exercises: 2
 
 ## Learning Outcomes
 1. Explain why publishing / depositing the software is relevant 
-> Learning experience(s): 
-> Exercise: 
->  1. Brainstorming on reasons to publish / deposit
->  2. Solution: a list of reasons and explanation why these reasons are relevant
+> **Learning experience**    
+> _Exercise_: Brainstorming on reasons to publish / deposit. 
+> _Solution_: a list of reasons and explanation why these reasons are relevant. 
 >  (For instructors to facilitate the brainstorming: link to relevant papers on the subject) @EVA
-3. Describe what are the key activities that need to be made during the publication phase.
+2. Describe what are the key activities that need to be made during the publication phase.
     1. Decide on where to publish / deposit the software 
-> some narrative describing publication/depositing options 
->
+> _Narrative_: some narrative describing publication/depositing options 
+> _Exercise_:
+> _Solution_: 
     3. Documenting information about the way people should cite the software
     4. create releases with a persistent global unique identifier pointing to each released version of the software
     5. keep an up to date CHANGELOG to communicate changes
