@@ -109,7 +109,7 @@ This stage starts with the idea of the research project that includes software. 
 > - Provide plenty of data examples for realistic use cases
 
 
-2. For each decision, explain **why** it’s important. 
+## 2. For each decision, explain **why** it’s important. 
 
     a. licence of the software 
     - i. will determine the rules for access and use of the software 
@@ -127,3 +127,15 @@ This stage starts with the idea of the research project that includes software. 
     - i. will greatly affect the level of adoption
     - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
     - iii. allow for reuse with their own datasets.
+    
+## 3. Identify the specific SMP questions that are relevant in this Phase. 
+- Accessibilty 1. What is the name of the software? 
+- Accessibility 2. How can the software be accessed by third parties? 
+- Accessibility 3. Does your software have a license? 
+- Interoperability 1. Do you use existing and standard input/output formats? 
+- [Not covered in lesson] Interoperability 2. (?) What programming languages are you using in your project? 
+- Versioning 1. Do you use a version control system? 
+- [Not covered in lesson] Versioning 2. Do you use Semantic Versioning? 
+
+## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
+
