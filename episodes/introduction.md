@@ -71,11 +71,11 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 
 
 > **Exercise**:  The five stages of software development are:    
-> Stage 1: Inception (concept, proposal writing, planning and inception). 
-> Stage 2: Construction (prototyping, construction and implementing core functionality). 
-> Stage 3: Application (release and quality assessment). 
-> Stage 4: Production (production software working on real-world data in a scalable and stable manner). 
-> Stage 5: Publication (Publishing software and/or research results ob- tained with the software). 
+> Stage 1: Inception (concept, proposal writing, planning and inception)  
+> Stage 2: Construction (prototyping, construction and implementing core functionality)   
+> Stage 3: Application (release and quality assessment)  
+> Stage 4: Production (production software working on real-world data in a scalable and stable manner)   
+> Stage 5: Publication (Publishing software and/or research results ob- tained with the software)   
 > Think about research software you develop (or is developed in your group by others): can you clearly recognise the five phases? When you start a new software project, do you plan its development according to the five stages? When there are more than one contributor to the project, do you assign roles according to the stages?
 > **Solution**: Write your answers on a shared document. The instructor discuss most interesting answers.
 > 
@@ -91,7 +91,7 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 | Stage 4: production  |              |      |
 | Stage 5: application |              |      |
 > 
-> **Solution**: Compare and discuss tables from different groups.
+> **Solution**: Compare and discuss the tables from different groups.
 > 
 
 _LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._ 
