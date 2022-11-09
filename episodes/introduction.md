@@ -64,25 +64,22 @@ _LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._
 
 > **Exercise**: Who are the stakeholders involved in SMPs?  
 > The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
-> One first example of stakeholder is a research software developer. Could you identify other profiles?
-> You can use the table template in the shared document (see below):
-
-For each group of identified stakeholders we answered two questions: (i) how the stakeholders would use the SMP and (ii) at which stage of the software development the stakeholders would need the SMP most.
+> One first example of stakeholder is a research software developer. Could you identify other profiles? Try to identify at least another one.
+> Use the table template in the shared document (see below):
 
 | Stakeholders                |    How the stakeholders would use the SMP   |  
-|----------------------------|:-------------------------------------------:|
-|Research software developers| The person writing the software needs to be aware of the basic principles to follow. They would use as a guide to implement best practices in software development efforts| 
+|:---------------------------:|:-------------------------------------------:|
+|Research software developers| The person writing the software needs to be aware of the basic principles to follow. They would use the SMP as a guide to implement best practices in software development efforts| 
 |                            |                                             | 
 |                            |                                             | 
-|                            |                                             | 
-|                            |                                             | 
+> **Solution**: The group discuss and the instructor facilitates the discussion.
 
-- 
-> **Solution**:
-> 
+**Narrative**
 
-, and the learners have to identify which group each belongs to.
-> - Personas based on the SMP Stakeholders: Group 1 (Users / Benefiters / Enforcers) and Group 2 (Adopters)
+#### SMP stakeholders
+FILL IN NARRATIVE HERE
+
+
 _LO #3: Describe the five Software Development Stages._
 
 **Narrative**
@@ -114,10 +111,26 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 | Stage 4: production  |            |         |
 | Stage 5: application |            |         |
 > 
-> **Solution**: Compare and discuss the tables from different groups.
+> **Solution**: Compare and discuss the tables created by different groups.
 > 
 
+> **Exercise**: Who are the stakeholders involved in SMPs?  
+> The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
+> One first example of stakeholder is a research software developer. Could you identify other profiles? Try to identify at least another one.
+> Use the table template in the shared document (see below):
 
+> **Exercise**:
+> For each group of identified stakeholders try to answer the questions: at which stage of the software development the stakeholders would need the SMP most? Why? You can use the table template below
+| Stakeholders        |   Stage  |  Why? |
+|:-------------------:|:--------:|:-----:|
+|Developer/Researcher |          |       |
+|PI of a group        |          |       |
+|Organisation (Fundee)|          |       |
+|Funders              |          |       |
+|Policy Makers        |          |       |
+|Service providers    |          |       |
+|Software manager     |          |       |
+|Publishers           |          |       |
 
 _LO #6: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
 
