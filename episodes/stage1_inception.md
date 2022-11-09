@@ -18,7 +18,7 @@ This stage starts with the idea of the research project that includes software. 
 ## a. licence of the software  
 
  > *Narrative*: Explain what a license is. The license will determine the rules for access and use of the software. It is a legal document, usually composed by a lawyer.
- > Note for instructor: [Open Source Development - An Introduction To Ownership And Licensing Issues](http://oss-watch.ac.uk/resources/iprguide)
+ > Note for instructor: [Open Source Development - An Introduction To Ownership And Licensing Issues](https://oss-watch.ac.uk/resources/iprguide)
 
  >**Learning experience** 
  >
