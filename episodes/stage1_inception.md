@@ -23,7 +23,7 @@ This stage starts with the idea of the research project that includes software. 
  >**Learning experience** 
  >
  >*Exercise*
- >The following challenges explore the _implications_ of this component. 
+ >The following challenges explore some _implications_ that choosing one license or another can have. They highlight different aspects of software that licese can govern. 
  >
  >Challenge 1:
  >In the project we are developing, we want to use a very popular library that has a strong copyleft license, but we would like to distribute our project under a more permissive license. What can we do? 
@@ -50,33 +50,60 @@ This stage starts with the idea of the research project that includes software. 
 
    
 ## b. where the software will be stored during development   
-### i. will determine how it can be accessed by others
+### i. will determine how it can be accessed by others 
 
 > **Learning experience**  
 >
 > *Exercise*: brainstorm which are the requirements for a system used to storage code while it is being developed.  
 
+> *Narrative*: Explain the different code hosting options (gitlab, github, bitbucket, sourceforge, ...). 
+> Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
-> *Narrative*: Explain the different code hosting options (gitlab, github, bitbucket, sourceforge, ...). Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
 ## c. what kind of versioning system will be used  
+
 ### i. is used for tracking changes in the software
-
-> *Narrative*: explain version control systems and available compatible hosting services (GitLab, GitLab).
->
-> They very likelly fulfill all the requirements mentioned before in addition to others that can become useful in later stages.
-
 ### ii. serves as a mechanism for due diligence for software projects 
-
-> One of the additional benefits of systems like git + GitHub/GitLab 
-
 ### iii. will narrow down available online services that can be used
 
->
+> *Narrative*: 
+> Explain version control systems and available compatible hosting services (GitLab, GitLab). Comparative table: https://chiplicity.readthedocs.io/en/latest/_images/VersionControlSystems.png
+> They very likelly fulfill all the requirements mentioned before. In addtition, some of them are not only hosting services, but offer a wide range of additional tools (issues, docker/package registry, CI/CD, pages, etc). 
+> 
+> Advantages of version control:
+> - Systematic tracking changes in the software -> version control != version history 
+> 
+> https://assets-global.website-files.com/5ff3926f03b3ba043ed639d1/601f3c78397f41080913a10e_5ea8b3a73bda8c4a33bb47d0_version-history-comparison-chart.jpeg 
+> 
+> - Mechanism for due diligence for software projects 
+> 
+> However:
+> - The election of the hosting service can limit the options of version control systems -> some repository hosting services like BitBucket only support Git and Mercurial
 
 
 ## d. what kind of input and output standards the software will have 
 
+### i. will greatly affect the level of adoption
+### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
+### iii. allow for reuse with their own datasets.
+
+> **Learning experience**
+> Discussion: What are the advantages of using standard data formats?
+> 
+> Solution:
+> (among others) 
+> - Data reformatting to meet custom data formats comes with high risk of introducing errors.
+> - There are libraries to effectively handle common data formats without risk of truncating data.
+> - Easier to integrate with other software and use with their own datasets, so increased adoption by users.
+
+> Exercise: 
+> Suppose there is no standard format suitable for the tool you are building, how do you reduce the impact of the points raised before?
+> Solution:
+> (among others)
+> - Create a format specification a register it in FAIRsharing -> makes the format public, providing identifier, contact, etc
+> - Use a schema to describe the format (machine readable representation) -> facilitates users the task of transforming their data to my custom format
+> - Provide a validator for my format -> facilitates users the task of transforming their data to my custom format
+> - Provide plenty of data examples for realistic use cases
 
 
 2. For each decision, explain **why** it’s important. 
