@@ -92,6 +92,7 @@ This stage starts with the idea of the research project that includes software. 
 > 
 > Solution:
 > (among others) 
+> 
 > - Data reformatting to meet custom data formats comes with high risk of introducing errors.
 > - There are libraries to effectively handle common data formats without risk of truncating data.
 > - Easier to integrate with other software and use with their own datasets, so increased adoption by users.
@@ -100,6 +101,7 @@ This stage starts with the idea of the research project that includes software. 
 > Suppose there is no standard format suitable for the tool you are building, how do you reduce the impact of the points raised before?
 > Solution:
 > (among others)
+> 
 > - Create a format specification a register it in FAIRsharing -> makes the format public, providing identifier, contact, etc
 > - Use a schema to describe the format (machine readable representation) -> facilitates users the task of transforming their data to my custom format
 > - Provide a validator for my format -> facilitates users the task of transforming their data to my custom format
