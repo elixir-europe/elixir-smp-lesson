@@ -39,11 +39,11 @@ LO #2: List the key differences between managing data and managing software.
  
 #### Management plans
 **Questions**: 
-    - What is a Management Plan? 
-    - Why a Management Plan? 
-    - What are the differences between managing data and managing software?
-    - What is the difference between a DMP and a SMP?
-    - (Can we deal with software in the same way as data?) (Use the differences in FAIR principles as an example.) --> to be removed?
+    - What is a Management Plan?   
+    - Why a Management Plan?   
+    - What are the differences between managing data and managing software?  
+    - What is the difference between a DMP and a SMP?  
+    - (Can we deal with software in the same way as data?) (Use the differences in FAIR principles as an example.) --> to be removed?  
 
 > **Exercise**: in groups. Discuss: 
 > 1) what could be the purpose of a management plan (in general);   
