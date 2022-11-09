@@ -25,30 +25,20 @@ This stage starts with the idea of the research project that includes software. 
  >*Exercise*
  >The following challenges explore the _implications_ of this component. 
  >
- >challenge 1 
+ >Challenge 1:
+ >In the project we are developing, we want to use a very popular library that has a strong copyleft license, but we would like to distribute our project under a more permissive license. What can we do? 
  >
- >In the project we are developing, we want to use a very popular library that has a strong copyleft license, but we would like to distribute our project >under a more permissive license. What can we do? 
- >
- >solution
- >
- >We cannot use that library, we have to find an alternative with a compatible license or adopt a strong copyleft license for our project. License governs reusing the software, with implications for the software integrating it.
+ >Solution: We cannot use that library, we have to find an alternative with a compatible license or adopt a strong copyleft license for our project. License governs reusing the software, with implications for the software integrating it.
 
- >challenge 2 
- >
+ >Challenge 2
  >We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program in an application with a privative license. Is that legal? 
  >
- >solution 
- >
- >It is perfectly legal, since the applications code that uses my code is not actually being distributed. License can govern the public performance of a >software.
+ >Solution: It is perfectly legal, since the applications code that uses my code is not actually being distributed. License can govern the public performance of a >software.
 
-
->challenge 3 
->
+>Challenge 3 
 >We are a team of several people happily developing a software in a public GitHub repository. Since we are not ready to share our code yet, we did not add any license. Is this a good way to prevent anyone making copies or use our code?.  
 >
->solution 
->
->In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very colaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by others users.
+>Solution: In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very colaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by others users.
 
 >*Narrative*
 >Useful resources:
