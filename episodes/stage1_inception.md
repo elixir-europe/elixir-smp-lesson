@@ -88,6 +88,7 @@ This stage starts with the idea of the research project that includes software. 
 ### iii. allow for reuse with their own datasets.
 
 > **Learning experience**
+> 
 > Discussion: What are the advantages of using standard data formats?
 > 
 > Solution:
