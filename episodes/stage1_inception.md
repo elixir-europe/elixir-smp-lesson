@@ -4,6 +4,16 @@ teaching: 10
 exercises: 3
 ---
 
+::: questions
+- Item
+- Item
+:::
+
+::: objectives
+- Item
+- Item
+:::
+
 **Goals**
 * What is important at this stage and why (general)
 * What are the SMP components (specific SMP questions) that are relevant here

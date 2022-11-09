@@ -4,6 +4,16 @@ teaching: 10
 exercises: 2
 ---
 
+::: questions
+- Item
+- Item
+:::
+
+::: objectives
+- Item
+- Item
+:::
+
 # Overview
 
 1. Target audience (probably similar to the 4OSS lesson)

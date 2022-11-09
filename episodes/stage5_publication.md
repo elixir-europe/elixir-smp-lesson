@@ -4,6 +4,16 @@ teaching: 10
 exercises: 2
 ---
 
+::: questions
+- Item
+- Item
+:::
+
+::: objectives
+- Item
+- Item
+:::
+
 # Stage 5: Publication (Publishing software and/or research results obtained with the software)
 
 ## Notes
