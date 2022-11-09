@@ -80,10 +80,8 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 > **Solution**: Write your answers on a shared document. The instructor discuss most interesting answers.
 > 
 
-**Narrative**: Alignment of ELIXIR SMP seven areas relevant for software quality to Software Development Stages
-
-
-> **Exercise**: The main areas of the ELIXIR SMP are: Accessibility, Documentation, Testing, Interoperability, Versioning, Reproducibility, and Recognition. Using the table provided in the shared document (see below)
+> **Exercise**: Alignment of ELIXIR SMP seven areas relevant for software quality to Software Development Stages.  
+> The main areas of the ELIXIR SMP are: Accessibility, Documentation, Testing, Interoperability, Versioning, Reproducibility, and Recognition. Using the table provided in the shared document (see below), try to align the areas to the five development stage. This exercise will be done in groups.
 
 | Stage                |     area(s)  |  why |
 |----------------------|:------------:|-----:|
@@ -93,7 +91,7 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 | Stage 4: production  |              |      |
 | Stage 5: application |              |      |
 > 
-> **Solution**: 
+> **Solution**: Compare and discuss tables from different groups.
 > 
 
 _LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._ 
