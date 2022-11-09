@@ -29,9 +29,9 @@ exercises: 2
 ## Learning Outcomes
 1. Explain what is the purpose of a management plan and why this is a good practice for Open Science.
 2. List/Highlight what are the key differences between managing data and managing software.
-3. Describe the five Software Development Stages.
-4. Identify the two main groups of stakeholders for the ELIXIR SMP.
-5. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
+3. Identify the two main groups of stakeholders for the ELIXIR SMP.
+4. Describe the five Software Development Stages.
+6. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
 
 ## Learning Experiences
 LO #1: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
@@ -57,9 +57,32 @@ Data Management Plans (DMPs) are a cornerstone of good data management and are n
 There are a few flavours of SMPs already available in one form or another. The Software Sustainability Institute (SSI) offers a very detailed checklist (Institute, 2018) that is further complemented by an online sustainability evaluation service (SES). Several journals (such as SoftwareX and the Journal of Open Source Software (JOSS)) have checklists that are expected to be filled in by the software authors before any submissions addressing most of the key points of an SMP. Finally, there are funding agencies (such as the Wellcome Trust) that expect a plan for the management of research output, including software, in submitted applications.
 
 > **Reflection**: [here](https://www.software.ac.uk/resources/guides/software-management-plans) is an example of an SMP. Explore it and try to answer the following questions:  
-> how could you implement it in the development process of your software? I.e., how could you use it?  
-> How difficult would be to check whether your software meets all the recommandations provided in this SMP?  
+> how could you implement it in the development process of your software? I.e., how could it be used?  
+> How difficult would be to check whether your software (or software developed in your group) meets all the recommandations provided in this SMP?  
 
+_LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._ 
+
+> **Exercise**: Who are the stakeholders involved in SMPs?  
+> The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
+> One first example of stakeholder is a research software developer. Could you identify other profiles?
+> You can use the table template in the shared document (see below):
+
+For each group of identified stakeholders we answered two questions: (i) how the stakeholders would use the SMP and (ii) at which stage of the software development the stakeholders would need the SMP most.
+
+| Stakeholders                |    How the stakeholders would use the SMP   |  
+|----------------------------|:-------------------------------------------:|
+|Research software developers| The person writing the software needs to be aware of the basic principles to follow. They would use as a guide to implement best practices in software development efforts| 
+|                            |                                             | 
+|                            |                                             | 
+|                            |                                             | 
+|                            |                                             | 
+
+- 
+> **Solution**:
+> 
+
+, and the learners have to identify which group each belongs to.
+> - Personas based on the SMP Stakeholders: Group 1 (Users / Benefiters / Enforcers) and Group 2 (Adopters)
 _LO #3: Describe the five Software Development Stages._
 
 **Narrative**
@@ -83,22 +106,18 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 > **Exercise**: Alignment of ELIXIR SMP seven areas relevant for software quality to Software Development Stages.  
 > The main areas of the ELIXIR SMP are: Accessibility, Documentation, Testing, Interoperability, Versioning, Reproducibility, and Recognition. Using the table provided in the shared document (see below), try to align the areas to the five development stage. This exercise will be done in groups.
 
-| Stage                |     area(s)  |  why |
-|----------------------|:------------:|-----:|
-| Stage1: inception    |              |      |
-| Stage 2: construction|              |      |
-| Stage 3: application |              |      |
-| Stage 4: production  |              |      |
-| Stage 5: application |              |      |
+| Stage                |   area(s)  | reasons |
+|----------------------|:----------:|--------:|
+| Stage1: inception    |            |         |
+| Stage 2: construction|            |         |
+| Stage 3: application |            |         |
+| Stage 4: production  |            |         |
+| Stage 5: application |            |         |
 > 
 > **Solution**: Compare and discuss the tables from different groups.
 > 
 
-_LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._ 
 
-> **Exercise**:
-> **Solution**:
-> 
 
 _LO #6: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
 
@@ -106,8 +125,6 @@ _LO #6: Access the SMW and create a project, i.e. a workspace where you can crea
 > **Solution**:
 > 
 
-## Notes on content
 
-- Personas based on the SMP Stakeholders: Group 1 (Users / Benefiters / Enforcers) and Group 2 (Adopters)
-- Make a list of potential stakeholders, and the learners have to identify which group each belongs to.
+
 
