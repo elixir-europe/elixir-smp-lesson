@@ -121,6 +121,7 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 
 > **Exercise**:
 > For each group of identified stakeholders try to answer the questions: at which stage of the software development the stakeholders would need the SMP most? Why? You can use the table template below
+
 | Stakeholders        |   Stage  |  Why? |
 |:-------------------:|:--------:|:-----:|
 |Developer/Researcher |          |       |
