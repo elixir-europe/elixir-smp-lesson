@@ -86,12 +86,12 @@ exercises: 2
   ```
 
 ## 3. Identify the specific SMP questions that are relevant in this Phase. 
+:warning: Questions not mapped yet in the [SMP Wizard](https://smw.ds-wizard.org/km-editor/editor/f311aeda-cff2-4155-b2f8-1208876d39ec/question-tags) 
 
 > *Narrative*: 
 > 
 > Enumerate the questions: 
 >  
->  :warning: Not yet mapped in the [SMP Wizard](https://smw.ds-wizard.org/km-editor/editor/f311aeda-cff2-4155-b2f8-1208876d39ec/question-tags) 
 
 
 ## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
