@@ -61,8 +61,9 @@ exercises: 2
 
 ## 2. For each activity, explain why it’s important.
 
-  :bulb: Covered in previous section 
+  :bulb: Covered in previous LO
   
+  ```
   ### a. Documenting how the software can be reliably used by people external to the development group or person 
 
   #### i. to ensure adoption/use of the software outside the original developer
@@ -82,6 +83,7 @@ exercises: 2
   #### i. Users to report any problems or pose questions about usage and documentation 
 
   #### ii. clarifying the process to address issues/bugs 
+  ```
 
 ## 3. Identify the specific SMP questions that are relevant in this Phase. 
 
