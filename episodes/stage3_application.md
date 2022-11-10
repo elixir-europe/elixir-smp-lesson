@@ -37,7 +37,27 @@ exercises: 2
 
 ### b. Providing tests as extensively as possible (ideally through automated processes 
 
-### c. Setting up Communication channels 
+> *Narrative*: Enumerate and briefly explain the different types of tests that exist.
+
+>**Learning Experience**
+>*Discussion*: 
+>
+> Do you do test-driven development? Why/why not? 
+
+>*Exercise*: 
+>
+> Think of a familiar case where test-driven development was not applied (or was not applicable, like in a fast-pace developing environment, early stages of development, prototyping, ...). Describe:
+> 
+> - Two situations where a test was necessary and why.
+> - Two situations where a test was prescindible and why.
+
+> *Brainstorming*:  advantages of using tests. 
+
+> *Narrative*: briefly enumerate the advantages of testing (if not mentioned in the previous brainstorm)
+
+### c. Setting up Communication channels  
+
+> *Discussion*. What is your preferred cmmunication channel as a user? and as a developer? Why? 
 
 ## 2. For each activity, explain why it’s important.
 
@@ -67,9 +87,7 @@ exercises: 2
 > 
 > Enumerate the questions: 
 >  
->  -
-
-
+>  :warning: Not yet mapped in the [SMP Wizard](https://smw.ds-wizard.org/km-editor/editor/f311aeda-cff2-4155-b2f8-1208876d39ec/question-tags) 
 
 
 ## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
@@ -78,5 +96,5 @@ exercises: 2
 > 
 > *Exercise*: 
 > 
-> Go to the workspace you just created in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
+> Go to the project in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
 
