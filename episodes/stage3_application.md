@@ -28,8 +28,12 @@ exercises: 2
 > 
 > *Exercise:* 
 > 
-> Think of three pieces of software you normally use. 
-> Imagine you are working on a new project where, unfortunateyl, you can't use them due to some licensing incompatibilities. Your only alternative is to develop them from scratch for your usual purposes. Two colleagues, both experienced research software engineers, will help you with the development to speed up the process. Write the purpose (scope, constraints, etc) of the softwares so they have a clear idea of what you are going to build and can start working. 
+> Think of two pieces of software you normally use. 
+> Imagine you are working on a new project where, unfortunateyl, you can't use them due to some licensing incompatibilities. Your only alternative is to develop them from scratch for your usual purposes. Two colleagues, both experienced research software engineers, will help you with the development to speed up the process. To help them get a clear idea of what you are going to build, for each software, define: 
+> 
+> 1. Purpose, scope and constraints. 
+> 
+> 2. Two functional tests the finished software must be able to pass.
 
 ### b. Providing tests as extensively as possible (ideally through automated processes 
 
