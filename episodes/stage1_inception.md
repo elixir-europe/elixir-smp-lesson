@@ -25,7 +25,7 @@ This stage starts with the idea of the research project that includes software. 
 
 ## 1. Describe **what** are the key decisions that need to be made during the Inception phase.  
 
-## a. licence of the software  
+### a. licence of the software  
 
  > *Narrative*: Explain what a license is. The license will determine the rules for access and use of the software. It is a legal document, usually composed by a lawyer.
  > Note for instructor: [Open Source Development - An Introduction To Ownership And Licensing Issues](https://oss-watch.ac.uk/resources/iprguide)
@@ -59,8 +59,8 @@ This stage starts with the idea of the research project that includes software. 
 >- [Clarifications on frequently asked questions regarding choosing a licenses and compilation of guides by the SSI](https://www.software.ac.uk/resources/guides/choosing-open-source-licence) 
 
    
-## b. where the software will be stored during development   
-### i. will determine how it can be accessed by others 
+### b. where the software will be stored during development   
+#### i. will determine how it can be accessed by others 
 
 > **Learning experience**  
 >
@@ -70,11 +70,11 @@ This stage starts with the idea of the research project that includes software. 
 > Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
 
-## c. what kind of versioning system will be used  
+### c. what kind of versioning system will be used  
 
-### i. is used for tracking changes in the software
-### ii. serves as a mechanism for due diligence for software projects 
-### iii. will narrow down available online services that can be used
+#### i. is used for tracking changes in the software
+#### ii. serves as a mechanism for due diligence for software projects 
+#### iii. will narrow down available online services that can be used
 
 > *Narrative*: 
 > Explain version control systems and available compatible hosting services (GitLab, GitLab). Comparative table: https://chiplicity.readthedocs.io/en/latest/_images/VersionControlSystems.png
@@ -91,11 +91,11 @@ This stage starts with the idea of the research project that includes software. 
 > - The election of the hosting service can limit the options of version control systems -> some repository hosting services like BitBucket only support Git and Mercurial
 
 
-## d. what kind of input and output standards the software will have 
+### d. what kind of input and output standards the software will have 
 
-### i. will greatly affect the level of adoption
-### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
-### iii. allow for reuse with their own datasets.
+#### i. will greatly affect the level of adoption
+#### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
+#### iii. allow for reuse with their own datasets.
 
 > **Learning experience**
 > 
@@ -119,7 +119,7 @@ This stage starts with the idea of the research project that includes software. 
 > - Provide plenty of data examples for realistic use cases
 
 
-## 2. For each decision, explain **why** it’s important. 
+### 2. For each decision, explain **why** it’s important. 
 
     a. licence of the software 
     - i. will determine the rules for access and use of the software 
@@ -138,7 +138,7 @@ This stage starts with the idea of the research project that includes software. 
     - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
     - iii. allow for reuse with their own datasets.
     
-## 3. Identify the specific SMP questions that are relevant in this Phase. 
+### 3. Identify the specific SMP questions that are relevant in this Phase. 
 - Accessibilty 1. What is the name of the software? 
 - Accessibility 2. How can the software be accessed by third parties? 
 - Accessibility 3. Does your software have a license? 
@@ -147,5 +147,5 @@ This stage starts with the idea of the research project that includes software. 
 - Versioning 1. Do you use a version control system? 
 - [Not covered in lesson] Versioning 2. Do you use Semantic Versioning? 
 
-## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
+### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
 
