@@ -139,13 +139,21 @@ This stage starts with the idea of the research project that includes software. 
     - iii. allow for reuse with their own datasets.
     
 ### 3. Identify the specific SMP questions that are relevant in this Phase. 
-- Accessibilty 1. What is the name of the software? 
-- Accessibility 2. How can the software be accessed by third parties? 
-- Accessibility 3. Does your software have a license? 
-- Interoperability 1. Do you use existing and standard input/output formats? 
-- [Not covered in lesson] Interoperability 2. (?) What programming languages are you using in your project? 
-- Versioning 1. Do you use a version control system? 
-- [Not covered in lesson] Versioning 2. Do you use Semantic Versioning? 
 
-### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
+> *Narrative*: Enumerate the questions: 
+> 
+> - Accessibilty 1. What is the name of the software? 
+> - Accessibility 2. How can the software be accessed by third parties? 
+> - Accessibility 3. Does your software have a license? 
+> - Interoperability 1. Do you use existing and standard input/output formats? 
+> - [Not covered in lesson] Interoperability 2. (?) What programming languages are you using in your project? 
+> - Versioning 1. Do you use a version control system? 
+> - [Not covered in lesson] Versioning 2. Do you use Semantic Versioning? 
+
+### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
+
+> **Learning Experience**
+> *Exercise*: 
+> 
+> Go to the workspace you just created in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
 
