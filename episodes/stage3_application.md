@@ -14,7 +14,7 @@ exercises: 2
 - Item
 :::
 
-> :clipboard: Reminder: This is the stage in which core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data. During this stage, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests). 
+> :bulb: *Reminder*: This is the stage in which core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data. During this stage, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests). 
  
 # Learning Outcomes
 
