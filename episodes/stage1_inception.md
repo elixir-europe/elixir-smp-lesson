@@ -149,6 +149,7 @@ exercises: 3
 ### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
 
 > **Learning Experience** 
+> 
 > *Exercise*: 
 > 
 > Go to the workspace you just created in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
