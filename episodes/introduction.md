@@ -174,16 +174,15 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 >**Solution**:
 
 | Stakeholders        |   Stage  | 
-|:-------------------:|:--------:|
-|Funders              | Depending on the funding scheme; it’s usually at the Inception stage (Stage 1), but it can also be at the Production stage (Stage 4). In all cases, this role would expect the full SMP filled in (either defining what is already in place, or the plan to do this).| 
+|:-------------------:|:---------|
+|Funders              |Depending on the funding scheme; it’s usually at the Inception stage (Stage 1), but it can also be at the Production stage (Stage 4). In all cases, this role would expect the full SMP filled in (either defining what is already in place, or the plan to do this).| 
 |Policy Makers        |During early phases of the development of similar policies|
 |Service providers    |When adopting or integrating software into existing platforms or in early stages of the decision process.|
 |Software manager     |While software is at its early stages of development (application or younger). The more mature a software the less likely that it will pose an obstacle to research goals.|
-|Publishers           | At any stage when authors submit software to be published. e.g. checklist used by JOSS. A publisher may also require that software is in the “production” or “publication” stage to be considered for publication.|
-|Developer/Researcher |  At all stages, from inception to publication|
-|PI of a group        | At all stages, from inception to publication|
-|Organisation (Fundee)|  At all stages|
-
+|Publishers           |At any stage when authors submit software to be published. e.g. checklist used by JOSS. A publisher may also require that software is in the “production” or “publication” stage to be considered for publication.|
+|Developer/Researcher |At all stages, from inception to publication|
+|PI of a group        |At all stages, from inception to publication|
+|Organisation (Fundee)|At all stages|
 
 
 ## LO: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
