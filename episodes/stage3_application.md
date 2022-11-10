@@ -61,25 +61,27 @@ exercises: 2
 
 ## 2. For each activity, explain why it’s important.
 
-### a. Documenting how the software can be reliably used by people external to the development group or person 
+  :bulb: Covered in previous section 
+  
+  ### a. Documenting how the software can be reliably used by people external to the development group or person 
 
-#### i. to ensure adoption/use of the software outside the original developer
+  #### i. to ensure adoption/use of the software outside the original developer
 
-### b. Providing tests as extensively as possible(ideally through automated processes 
+  ### b. Providing tests as extensively as possible(ideally through automated processes 
 
-#### i. Helps ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
+  #### i. Helps ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
 
-#### ii. Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
+  #### ii. Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
 
-#### iii. Essential for reproducibility
+  #### iii. Essential for reproducibility
 
-#### iv. Enhance the overall trust that the software will work as intended
+  #### iv. Enhance the overall trust that the software will work as intended
 
-### c. Setting up Communication channels
+  ### c. Setting up Communication channels
 
-#### i. Users to report any problems or pose questions about usage and documentation 
+  #### i. Users to report any problems or pose questions about usage and documentation 
 
-#### ii. clarifying the process to address issues/bugs 
+  #### ii. clarifying the process to address issues/bugs 
 
 ## 3. Identify the specific SMP questions that are relevant in this Phase. 
 
