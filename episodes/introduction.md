@@ -36,6 +36,7 @@ exercises: 2
     3. Be able to fill in the required information across all sections of the SMP in the ELIXIR Software Management Wizard (SMW)
 
 # Introduction
+
 ## Learning Outcomes
 1. Explain what is the purpose of a management plan and why this is a good practice for Open Science.
 2. List/Highlight what are the key differences between managing data and managing software.
@@ -43,11 +44,10 @@ exercises: 2
 4. Describe the five Software Development Stages.
 6. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
 
-## Learning Experiences
-LO #1: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
-LO #2: List the key differences between managing data and managing software.
+## LO: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
+## LO: List the key differences between managing data and managing software.
  
-#### Management plans
+### Management plans
 **Questions**:   
     - What is a Management Plan?   
     - Why a Management Plan?   
@@ -61,7 +61,6 @@ LO #2: List the key differences between managing data and managing software.
 > 3) what could be the purpose of a Software Management Plan?
 > **Solution**: each group summarises the answers to the three questions and write them on sticky notes for later use.
 
-**Narrative**
 Data management is the practice of collecting, organising, storing, maintaining, and using data securely, efficiently and cost-effectively. Software developed during the course of research, like data, should be managed appropriately. Although general data management principles can be applied to software development, managing software consists in planning and leading the process of developing and publishing software, since its inception throughout all the phases of its planning, development, delivery, use, and publishing. A management plan is a comprehensive plan that describes the objectives of any given project, clearly defines roles and responsibilities, the strategies used to meet the objectives, and the methods used to measure performance (= the achievement of objectives/deliverables). It is a resource that can be used as a guideline in the initial phases of a project, as well as throughout its execution, thus ensuring that everything operates smoothly.
 Data Management Plans (DMPs) are a cornerstone of good data management and are now considered a key element of Open Science practices. A DMP describes the data management life cycle for the data to be collected, processed and/or generated within the lifetime of a particular project or activity. A Software Management Plan (SMP) is a device wihch may help formalise a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although it has a management perspective, the main advantage of an SMP is that it provides clear context to the software that is being developed. In that sense, it addresses several aspects of the software development process such as (a) supporting reproducibility and reusability of the software, (b) allowing funding agencies to have a better grasp of the envisioned development process (as well as the achieved milestones), (c) increasing the awareness of the existing community standards that can/should be used, and (d) ensuring that the software can be easily accessed by the wider community. DMPs and SMPs often come in the form of checklists. 
 There are a few flavours of SMPs already available in one form or another. The Software Sustainability Institute (SSI) offers a very detailed checklist (Institute, 2018) that is further complemented by an online sustainability evaluation service (SES). Several journals (such as SoftwareX and the Journal of Open Source Software (JOSS)) have checklists that are expected to be filled in by the software authors before any submissions addressing most of the key points of an SMP. Finally, there are funding agencies (such as the Wellcome Trust) that expect a plan for the management of research output, including software, in submitted applications.
@@ -70,9 +69,11 @@ There are a few flavours of SMPs already available in one form or another. The S
 > how could you implement it in the development process of your software? I.e., how could it be used?  
 > How difficult would be to check whether your software (or software developed in your group) meets all the recommandations provided in this SMP?  
 
-_LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._ 
+## LO: Identify the two main groups of stakeholders for the ELIXIR SMP
 
-> **Exercise**: Who are the stakeholders involved in SMPs?  
+### SMP stakeholders
+
+> **Exercise**: Who are the stakeholders involved in SMPs? How would this role use the SMP? 
 > The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
 > One first example of stakeholder is a research software developer. Could you identify other profiles? Try to identify at least another one.
 > Use the table template in the shared document (see below):
@@ -82,19 +83,51 @@ _LO #4: Identify the two main groups of stakeholders for the ELIXIR SMP._
 |Research software developers| The person writing the software needs to be aware of the basic principles to follow. They would use the SMP as a guide to implement best practices in software development efforts| 
 |                            |                                             | 
 |                            |                                             | 
-> **Solution**: The group discuss and the instructor facilitates the discussion.
 
-**Narrative**
+> **Solution**: The group discusses and the instructor facilitates the discussion.
+>
+> We identified two main stakeholders’ groups corresponding to users and adopters. In addition, we defined a group of distinguished personas that are out of the scope of the SMP’s stakeholders, specifically the (a) **software users** who might also be contributors (e.g. by submitting bugs), and (b) the **end-users** of the software, who have no involvement with the software development process.
+>
+> **Group 1: Users / Benefiter / Enforcers**
+This group includes stakeholders that require access to the SMP for a given software, but are not responsible for filling it in.
+> *Funders (e.g ELIXIR, Wellcome Trust)*
+> – Use the SMP in order to assess whether a software fits the funding requirement (e.g be in Stage 4).  
+> – Evaluate if the proposal addresses essential aspects of Research Software Management (incl. “scoring” the software based on their alignment to best practices).  
+> – Ensure that the software is well-done (reproducible, reusable/open, robust) andfunding is not wasted.    
+> *Policy Makers (e.g. European Commission can use SMPs as a way of “enforcing” their recommendations and policies)*  
+> – Use the SMP as a basis, inspiration or requirements for their guidelines or policies in their domain of action.  
+> *Service providers* (e.g. Compute Platform, PaaS, IaaS, SaaS use an SMP in order to ensure compatibility to the minfrastructure offered).  
+> – A service provider would use the SMP to assess if the software meets the qualityand reproducibility standards of the platform. The SMP can therefore also be used as a requirement.   
+> – To assess the level of maintenance effort necessary to provide access to the software on their platform
+> – The different stages described in the SMP can also be used to label software according to their expected reliability (e.g. tools in experimental phase).  
+> *Software manager not necessarily contributing to the software - making sure principles are enforced*.  
+> – To assess if the software is reliable for ongoing research projects or during the conceptualisation phase of new research projects.   
+> – To assess if the development process of software is compatible with the timeframe of research projects.  
+> *Publishers* e.g. F1000 should use an SMP in order to ensure software “quality” / availability?).  
+> – To ensure research published can be reproduced by peers with the software that was used to generate the results.  
 
-#### SMP stakeholders
-FILL IN NARRATIVE HERE
+**Group 2: Adopters**
+> This group includes stakeholders that are primarily responsible for filling a SMP for a given software.   
+> *Developer/Researcher* the person writing the software needs to be aware of the basic principles to follow.  
+>
+> – As a guide to implement best practices in ongoing or new software development efforts.  
+> – As a quality filter when considering if existing software meets the needs for new research projects.  
+>
+> *PI of a group* can use the SMP to ensure compliance with best practices.  
+> – To inform the proposal writing process.  
+> – As a guide to ensure any software developed in the group meets an acceptable quality and technical level in order to maximise the chances of adoption.  
+> – To ensure the team composition supports skills necessary to develop software according with best practices.  
+> – To ensure software can be reused in the future, enabling building on vs reinventing.   
+> – To increase the bus factor of the project.  
+> – As a checklist prior to publication.  
+> 
+> *Organisation (Fundee)* Vested interest that in-house research output meets criteria and is sustainable - select appropriate SMP. This is the instance where an Institution is attempting to create a policy for internal use (ensure that any “badged” research software produced under it, aligns to the expectations of the selected SMP).   
+> – To ensure there is supporting infrastructure at the organisation level.  
+> – To ensure there is a training program / supporting personnel, supporting skillnecessary to implementing the SMP (e.g. software stewards).  
 
+## LO:Describe the five Software Development Stages.
 
-_LO #3: Describe the five Software Development Stages._
-
-**Narrative**
-
-#### The ELIXIR Software Management Plan
+### The ELIXIR Software Management Plan
 
 A key downside of the aforementioned SMPs is that they tend to be rather complex, occasionally requiring deep technical knowledge of the software development process. In order to address these drawbacks, ELIXIR has designed a simplified version of an SMP, tailored for Life Science oriented projects but still general enough so as to be widely used. The primary goal of the ELIXIR SMP is to encourage wider adoption by Life Science researchers, and be as inclusive as possible to the various levels of technical expertise, while also having an explicit connection to the FAIR principles for Research Software (Hong et al., 2021,@lamprecht_towards_2020). A common theme in Life Science researchers is the wide differences in background expertise, with the vast majority of researchers being self-taught research software developers. Having an SMP with a relatively low barrier in technical knowledge, while maintaining all the best practices expected in research software development, may both encourage wider adoption of these practices as well as increase the awareness of the multiple aspects involved in research software development.  
 In terms of structure, the ELIXIR SMP comprises seven areas relevant for software quality, each of which is composed of a **collection of targeted questions**. The main areas are **Accessibility**, **Documentation**, **Testing**, **Interoperability**, **Versioning**, **Reproducibility** and **Recognition**, and the questions vary in complexity and requirements. The seven areas, and therefore the questions, can be connected across the five distinct software stages: inception, construction, application, production, publication. 
@@ -124,26 +157,36 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 > **Solution**: Compare and discuss the tables created by different groups.
 > 
 
-> **Exercise**: Who are the stakeholders involved in SMPs?  
-> The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
-> One first example of stakeholder is a research software developer. Could you identify other profiles? Try to identify at least another one.
-> Use the table template in the shared document (see below):
-
-> **Exercise**:
+> **Exercise**: At which stage of the software development the stakeholders would need the SMP most?
 > For each group of identified stakeholders try to answer the questions: at which stage of the software development the stakeholders would need the SMP most? Why? You can use the table template below
 
 | Stakeholders        |   Stage  |  Why? |
 |:-------------------:|:--------:|:-----:|
-|Developer/Researcher |          |       |
-|PI of a group        |          |       |
-|Organisation (Fundee)|          |       |
 |Funders              |          |       |
 |Policy Makers        |          |       |
 |Service providers    |          |       |
 |Software manager     |          |       |
 |Publishers           |          |       |
+|Developer/Researcher |          |       |
+|PI of a group        |          |       |
+|Organisation (Fundee)|          |       |
 
-_LO #6: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
+>**Solution**:
+
+| Stakeholders        |   Stage  | 
+|:-------------------:|:--------:|
+|Funders              | Depending on the funding scheme; it’s usually at the Inception stage (Stage 1), but it can also be at the Production stage (Stage 4). In all cases, this role would expect the full SMP filled in (either defining what is already in place, or the plan to do this).| 
+|Policy Makers        |During early phases of the development of similar policies|
+|Service providers    |When adopting or integrating software into existing platforms or in early stages of the decision process.|
+|Software manager     |While software is at its early stages of development (application or younger). The more mature a software the less likely that it will pose an obstacle to research goals.|
+|Publishers           | At any stage when authors submit software to be published. e.g. checklist used by JOSS. A publisher may also require that software is in the “production” or “publication” stage to be considered for publication.|
+|Developer/Researcher |  At all stages, from inception to publication|
+|PI of a group        | At all stages, from inception to publication|
+|Organisation (Fundee)|  At all stages|
+
+
+
+## LO: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
 
 > **Exercise**:
 > **Solution**:
