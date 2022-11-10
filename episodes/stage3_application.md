@@ -19,29 +19,33 @@ exercises: 2
 
 ## 1. Describe what are the main activities that take place during the Application phase. 
 
-## a. Documenting how the software can be reliably used by people external to the development group or person 
+### a. Documenting how the software can be reliably used by people external to the development group or person 
 
-## b. Providing tests as extensively as possible (ideally through automated processes 
+### b. Providing tests as extensively as possible (ideally through automated processes 
 
-## c. Setting up Communication channels 
+### c. Setting up Communication channels 
 
-# 2. For each activity, explain why it’s important.
+## 2. For each activity, explain why it’s important.
 
-## a. Documenting how the software can be reliably used by people external to the development group or person to ensure adoption/use of the software outside the original developer
+### a. Documenting how the software can be reliably used by people external to the development group or person 
 
-## b. Providing tests as extensively as possible(ideally through automated processes helps ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
+#### i. to ensure adoption/use of the software outside the original developer
 
-## c Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
+### b. Providing tests as extensively as possible(ideally through automated processes 
 
-## d. Essential for reproducibility
+#### i. Helps ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
 
-## e. Enhance the overall trust that the software will work as intended
+#### ii. Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
 
-# 3. Setting up Communication channels
+#### iii. Essential for reproducibility
 
-## a. Users to report any problems or pose questions about usage and documentation 
+#### iv. Enhance the overall trust that the software will work as intended
 
-## b. clarifying the process to address issues/bugs 
+### c. Setting up Communication channels
+
+#### i. Users to report any problems or pose questions about usage and documentation 
+
+#### ii. clarifying the process to address issues/bugs 
 
 # 3. Identify the specific SMP questions that are relevant in this Phase.
 
