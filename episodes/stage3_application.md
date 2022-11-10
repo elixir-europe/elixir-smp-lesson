@@ -21,7 +21,14 @@ exercises: 2
 ## 1. Describe what are the main activities that take place during the Application phase. 
 
 ### a. Documenting how the software can be reliably used by people external to the development group or person 
- 
+
+> *Narrative*: explain how clearly documenting the purpose (scope and possible constraints) of the software is necessary in focussing the development effort (this stage) and avoiding feature creep. It is also crucial towards defining functional tests. 
+
+> **Learning Experience** 
+> 
+> *Exercise:* 
+> 
+> Think of three pieces of software you normally use. Imagine that, unfortunateyl, you can't use them in your current project because of some licensing conflicts. Your only alternative is to develop them from scratch for your specific purposes. Your team will help you to speed up the proccess, but they are not familiar with them. Write the purpose (scope, constraints, etc) of the softwares so they have a clear idea of what you are going to build and can start designing and planning. 
 
 ### b. Providing tests as extensively as possible (ideally through automated processes 
 
@@ -49,7 +56,16 @@ exercises: 2
 
 #### ii. clarifying the process to address issues/bugs 
 
-## 3. Identify the specific SMP questions that are relevant in this Phase.
+## 3. Identify the specific SMP questions that are relevant in this Phase. 
+
+> *Narrative*: 
+> 
+> Enumerate the questions: 
+>  
+>  -
+
+
+
 
 ## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
 
