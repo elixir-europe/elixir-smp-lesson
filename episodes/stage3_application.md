@@ -47,6 +47,6 @@ exercises: 2
 
 #### ii. clarifying the process to address issues/bugs 
 
-# 3. Identify the specific SMP questions that are relevant in this Phase.
+## 3. Identify the specific SMP questions that are relevant in this Phase.
 
-# 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
+## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.
