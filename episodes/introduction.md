@@ -187,9 +187,15 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 
 ## LO: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
 
-> **Exercise**:
-> **Solution**:
+> **Exercise**: Access the SMW and create a project
+> Go to the [Software Management Wizard webpage](https://smw.ds-wizard.org/) and create a new SMP custom project (not from Project Template).
 > 
+> **Solution**:
+> On the SMP webpage, click on Projects on the left menu. You will end up on a page where you can create your SMP project. Give a name to your project and choose the Software Mangement Plan as Knowledge Model.  
+> The list of stages will appear. If and only if you want to fill in the SMP for a given stage(s), select it (them). However, if you want to use all questions, do not select any question tag.
+> When you're done, click on Save.
+> In answering questions, you may want to use the TODO and/or "comment" functionality. You may add a TODO if you want to remember, e.g., you have to revise one or more of your answers.
+> >
 
 
 
