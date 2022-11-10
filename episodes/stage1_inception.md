@@ -133,7 +133,7 @@ exercises: 3
     - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
     - iii. allow for reuse with their own datasets.
     
-### 3. Identify the specific SMP questions that are relevant in this Phase. 
+## 3. Identify the specific SMP questions that are relevant in this Phase. 
 
 > *Narrative*: 
 > Enumerate the questions: 
@@ -146,7 +146,7 @@ exercises: 3
 > - Versioning 1. Do you use a version control system? 
 > - [Not covered in lesson] Versioning 2. Do you use Semantic Versioning? 
 
-### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
+## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
 
 > **Learning Experience** 
 > 
