@@ -14,12 +14,7 @@ exercises: 3
 - Item
 :::
 
-**Goals**
-* What is important at this stage and why (general)
-* What are the SMP components (specific SMP questions) that are relevant here
-* Describe what each of these components mean, require and imply
-
-This stage starts with the idea of the research project that includes software. In this stage theproposal for the project is written, planning and first steps for the software development are made.
+>:bulb: Reminder: This stage starts with the idea of the research project that includes software. In this stage theproposal for the project is written, planning and first >steps for the software development are made.
 
 # Learning Outcomes
 
@@ -119,7 +114,7 @@ This stage starts with the idea of the research project that includes software. 
 > - Provide plenty of data examples for realistic use cases
 
 
-### 2. For each decision, explain **why** it’s important. 
+   ### 2. For each decision, explain **why** it’s important. 
 
     a. licence of the software 
     - i. will determine the rules for access and use of the software 
@@ -140,7 +135,8 @@ This stage starts with the idea of the research project that includes software. 
     
 ### 3. Identify the specific SMP questions that are relevant in this Phase. 
 
-> *Narrative*: Enumerate the questions: 
+> *Narrative*: 
+> Enumerate the questions: 
 > 
 > - Accessibilty 1. What is the name of the software? 
 > - Accessibility 2. How can the software be accessed by third parties? 
@@ -152,7 +148,7 @@ This stage starts with the idea of the research project that includes software. 
 
 ### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
 
-> **Learning Experience**
+> **Learning Experience** 
 > *Exercise*: 
 > 
 > Go to the workspace you just created in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
