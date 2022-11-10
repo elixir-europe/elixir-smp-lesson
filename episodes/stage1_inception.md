@@ -140,7 +140,7 @@ This stage starts with the idea of the research project that includes software. 
     
 ## 3. Identify the specific SMP questions that are relevant in this Phase. 
 - Accessibilty 1. What is the name of the software? 
-- Accessibility 2. How can the software be accessed by third parties? 
+- [?????] Accessibility 2. How can the software be accessed by third parties? 
 - Accessibility 3. Does your software have a license? 
 - Interoperability 1. Do you use existing and standard input/output formats? 
 - [Not covered in lesson] Interoperability 2. (?) What programming languages are you using in your project? 
