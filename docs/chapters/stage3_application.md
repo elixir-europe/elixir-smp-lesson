@@ -1,26 +1,20 @@
 ---
-title: "Stage 3: Application"
-teaching: 10
-exercises: 2
+tags:
+    - Application
+    - Prototype
+    - Communication
+    - Community
 ---
 
-::: questions
-- Item
-- Item
-:::
-
-::: objectives
-- Item
-- Item
-:::
+# Stage 3: Application
 
 > :bulb: *Reminder*: This is the stage in which core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data. During this stage, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests). 
  
-# Learning Outcomes
+## Learning Outcomes
 
-## 1. Describe what are the main activities that take place during the Application phase. 
+### 1. Describe what are the main activities that take place during the Application phase. 
 
-### a. Documenting how the software can be reliably used by people external to the development group or person 
+#### a. Documenting how the software can be reliably used by people external to the development group or person 
 
 > *Narrative*: explain how clearly documenting the purpose (scope and possible constraints) of the software is necessary in focussing the development effort (this stage) and avoiding feature creep. It is also crucial towards defining functional tests. 
 
@@ -35,7 +29,7 @@ exercises: 2
 > 
 > 2. Two functional tests the finished software must be able to pass.
 
-### b. Providing tests as extensively as possible (ideally through automated processes 
+#### b. Providing tests as extensively as possible (ideally through automated processes)
 
 > *Narrative*: Enumerate and briefly explain the different types of tests that exist.
 
@@ -55,11 +49,11 @@ exercises: 2
 
 > *Narrative*: briefly enumerate the advantages of testing (if not mentioned in the previous brainstorm)
 
-### c. Setting up Communication channels  
+#### c. Setting up Communication channels  
 
 > *Discussion*. What is your preferred cmmunication channel as a user? and as a developer? Why? 
 
-## 2. For each activity, explain why it’s important.
+### 2. For each activity, explain why it’s important.
 
   :bulb: Covered in previous LO
   
@@ -85,7 +79,7 @@ exercises: 2
   #### ii. clarifying the process to address issues/bugs 
   ```
 
-## 3. Identify the specific SMP questions that are relevant in this Phase. 
+### 3. Identify the specific SMP questions that are relevant in this Phase. 
 :warning: Questions not mapped yet in the [SMP Wizard](https://smw.ds-wizard.org/km-editor/editor/f311aeda-cff2-4155-b2f8-1208876d39ec/question-tags) 
 
 > *Narrative*: 
@@ -94,7 +88,7 @@ exercises: 2
 >  
 
 
-## 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
+### 4. Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase. 
 
 > **Learning Experience** 
 > 

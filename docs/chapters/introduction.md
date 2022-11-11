@@ -1,20 +1,13 @@
 ---
-title: "Introduction to ELIXIR Software Management Plan (SMP)"
-teaching: 10
-exercises: 2
+tags:
+    - Introduction
+    - Software Management Plan
+    - Training
 ---
 
-::: questions
-- Item
-- Item
-:::
+# Introduction to ELIXIR Software Management Plan (SMP)
 
-::: objectives
-- Item
-- Item
-:::
-
-# Overview
+## Overview
 
 1. Target audience (probably similar to the 4OSS lesson)
     1. Research software Engineers (RSEs)(people writing the software need to be aware of the basic principles to follow)
@@ -35,19 +28,19 @@ exercises: 2
     2. Understand the implications of the different choices provided in the SMP.
     3. Be able to fill in the required information across all sections of the SMP in the ELIXIR Software Management Wizard (SMW)
 
-# Introduction
+## Introduction
 
-## Learning Outcomes
+### Learning Outcomes
 1. Explain what is the purpose of a management plan and why this is a good practice for Open Science.
 2. List/Highlight what are the key differences between managing data and managing software.
 3. Identify the two main groups of stakeholders for the ELIXIR SMP.
 4. Describe the five Software Development Stages.
 6. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
 
-## LO: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
-## LO: List the key differences between managing data and managing software.
+### LO: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
+### LO: List the key differences between managing data and managing software.
  
-### Management plans
+#### Management plans
 **Questions**:   
     - What is a Management Plan?   
     - Why a Management Plan?   
@@ -69,9 +62,9 @@ There are a few flavours of SMPs already available in one form or another. The S
 > how could you implement it in the development process of your software? I.e., how could it be used?  
 > How difficult would be to check whether your software (or software developed in your group) meets all the recommandations provided in this SMP?  
 
-## LO: Identify the two main groups of stakeholders for the ELIXIR SMP
+### LO: Identify the two main groups of stakeholders for the ELIXIR SMP
 
-### SMP stakeholders
+#### SMP stakeholders
 
 > **Exercise**: Who are the stakeholders involved in SMPs? How would this role use the SMP? 
 > The group make a list of potential stakeholders involved in SMPs. Who may be potentially interested in using an SMP? Why?   
@@ -125,9 +118,9 @@ This group includes stakeholders that require access to the SMP for a given soft
 > – To ensure there is supporting infrastructure at the organisation level.  
 > – To ensure there is a training program / supporting personnel, supporting skillnecessary to implementing the SMP (e.g. software stewards).  
 
-## LO:Describe the five Software Development Stages.
+### LO:Describe the five Software Development Stages.
 
-### The ELIXIR Software Management Plan
+#### The ELIXIR Software Management Plan
 
 A key downside of the aforementioned SMPs is that they tend to be rather complex, occasionally requiring deep technical knowledge of the software development process. In order to address these drawbacks, ELIXIR has designed a simplified version of an SMP, tailored for Life Science oriented projects but still general enough so as to be widely used. The primary goal of the ELIXIR SMP is to encourage wider adoption by Life Science researchers, and be as inclusive as possible to the various levels of technical expertise, while also having an explicit connection to the FAIR principles for Research Software (Hong et al., 2021,@lamprecht_towards_2020). A common theme in Life Science researchers is the wide differences in background expertise, with the vast majority of researchers being self-taught research software developers. Having an SMP with a relatively low barrier in technical knowledge, while maintaining all the best practices expected in research software development, may both encourage wider adoption of these practices as well as increase the awareness of the multiple aspects involved in research software development.  
 In terms of structure, the ELIXIR SMP comprises seven areas relevant for software quality, each of which is composed of a **collection of targeted questions**. The main areas are **Accessibility**, **Documentation**, **Testing**, **Interoperability**, **Versioning**, **Reproducibility** and **Recognition**, and the questions vary in complexity and requirements. The seven areas, and therefore the questions, can be connected across the five distinct software stages: inception, construction, application, production, publication. 
@@ -185,7 +178,7 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 |Organisation (Fundee)|At all stages|
 
 
-## LO: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
+### LO: Access the SMW and create a project, i.e. a workspace where you can create your SMP_
 
 > **Exercise**: Access the SMW and create a project
 > Go to the [Software Management Wizard webpage](https://smw.ds-wizard.org/) and create a new SMP custom project (not from Project Template).

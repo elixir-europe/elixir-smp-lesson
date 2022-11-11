@@ -1,17 +1,6 @@
 ---
-title: "Wrap-up / Conclusions"
-teaching: 10
-exercises: 2
+tags:
+    - Conclusion
 ---
-
-::: questions
-- Item
-- Item
-:::
-
-::: objectives
-- Item
-- Item
-:::
 
 # Wrap-up / Conclusions

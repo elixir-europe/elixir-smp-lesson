@@ -1,18 +1,10 @@
 ---
-title: "Stage 5: Publication"
-teaching: 10
-exercises: 2
+tags:
+    - Publication
+    - Registries
+    - Repositories
+    - Changelog
 ---
-
-::: questions
-- Item
-- Item
-:::
-
-::: objectives
-- Item
-- Item
-:::
 
 # Stage 5: Publication (Publishing software and/or research results obtained with the software)
 
