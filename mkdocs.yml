@@ -1,11 +1,18 @@
-site_name: ELIXIR lesson
+site_name: ELIXIR Software Management Plan lesson
 nav:
     - Home: index.md
     - General info: 
       - Precourse preparations: precourse.md
       - Course schedule: course_schedule.md
+      - Instructor Notes: instructors/instructor-notes.md
     - Chapters:
-      - "Chapter 1": chapters/chapter_01.md
+      - "Introduction": episodes/introduction.md
+      - "Stage 1: Inception": episodes/stage1_inception.md
+      - "Stage 2: Construction": episodes/stage2_construction.md
+      - "Stage 3: Application": episodes/stage3_application.md
+      - "Stage 4: Production": episodes/stage4_production.md
+      - "Stage 5: Publication": episodes/stage5_publication.md
+      - "Conclusions": episodes/wrap-up_conclusions.md
     - Keywords list: keywords.md
 
 theme:
@@ -17,8 +24,8 @@ theme:
     - navigation.tabs
 
 # Repository
-repo_name: ELIXIR-FAIR-Training/ELIXIR-lesson-template
-repo_url: https://github.com/ELIXIR-FAIR-Training/ELIXIR-lesson-template
+repo_name: elixir-europe/elixir-smp-lesson
+repo_url: https://github.com/elixir-europe/elixir-smp-lesson
 edit_uri: edit/main/docs/
 
 plugins:
