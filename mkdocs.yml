@@ -6,13 +6,13 @@ nav:
       - Course schedule: course_schedule.md
       - Instructor Notes: instructors/instructor-notes.md
     - Chapters:
-      - "Introduction": episodes/introduction.md
-      - "Stage 1: Inception": episodes/stage1_inception.md
-      - "Stage 2: Construction": episodes/stage2_construction.md
-      - "Stage 3: Application": episodes/stage3_application.md
-      - "Stage 4: Production": episodes/stage4_production.md
-      - "Stage 5: Publication": episodes/stage5_publication.md
-      - "Conclusions": episodes/wrap-up_conclusions.md
+      - "Introduction": chapters/introduction.md
+      - "Stage 1: Inception": chapters/stage1_inception.md
+      - "Stage 2: Construction": chapters/stage2_construction.md
+      - "Stage 3: Application": chapters/stage3_application.md
+      - "Stage 4: Production": chapters/stage4_production.md
+      - "Stage 5: Publication": chapters/stage5_publication.md
+      - "Conclusions": chapters/wrap-up_conclusions.md
     - Keywords list: keywords.md
 
 theme:
