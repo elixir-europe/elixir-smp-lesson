@@ -4,8 +4,8 @@ nav:
     - General info: 
       - Precourse preparations: precourse.md
       - Course schedule: course_schedule.md
-      - Instructor Notes: instructors/instructor-notes.md
-      - Learner Profiles: docs/profiles.md
+      - Instructor Notes: instructor-notes.md
+      - Learner Profiles: profiles.md
     - Chapters:
       - "Introduction": chapters/introduction.md
       - "Stage 1: Inception": chapters/stage1_inception.md
