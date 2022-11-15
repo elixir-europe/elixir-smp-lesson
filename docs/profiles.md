@@ -1,3 +1,7 @@
+---
+title: "Learner profiles"
+---
+
 # Learner profiles
 
 ## Janet - Researcher

@@ -6,6 +6,8 @@ tags:
     - Standards
 ---
 
+{% include-markdown "../links.md" %}
+
 # Stage 1: Inception
 
 >:bulb: Reminder: This stage starts with the idea of the research project that includes software. In this stage theproposal for the project is written, planning and first steps for the software development are made.

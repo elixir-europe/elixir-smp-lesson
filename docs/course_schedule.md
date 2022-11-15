@@ -1,3 +1,10 @@
+---
+title: "Course schedule"
+---
+
+{% include-markdown "links.md" %}
+
+# Course schedule
 
 | start 	| end   	| topic   	|
 |-------	|-------	|---------	|

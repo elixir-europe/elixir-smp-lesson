@@ -6,6 +6,8 @@ tags:
     - Changelog
 ---
 
+{% include-markdown "../links.md" %}
+
 # Stage 5: Publication (Publishing software and/or research results obtained with the software)
 
 ## Notes

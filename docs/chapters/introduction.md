@@ -5,6 +5,8 @@ tags:
     - Training
 ---
 
+{% include-markdown "../links.md" %}
+
 # Introduction to ELIXIR Software Management Plan (SMP)
 
 ## Overview

@@ -5,4 +5,6 @@ tags:
     - Core features
 ---
 
+{% include-markdown "../links.md" %}
+
 # Stage 2: Construction (prototyping, construction and implementing core functionality)

@@ -1,7 +1,12 @@
+---
+title: "Home / About"
+---
+
+{% include-markdown "links.md" %}
 
 ## Quick intro to this template
 
-You can edit pages in [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). However, this theme ([material](https://squidfunk.github.io/mkdocs-material/)) has many fancy extensions, like [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/):
+You can edit pages in [markdown][markdown]. However, this theme ([material][mkdocs-material]) has many fancy extensions, like [admonitions][mkdocs-admonitions]:
 
 !!! info "Using html snippets"
     If you want to add an image, the best way would be to use html, e.g:
