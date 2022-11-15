@@ -10,7 +10,13 @@ tags:
 
 # Stage 1: Inception
 
->:bulb: Reminder: This stage starts with the idea of the research project that includes software. In this stage theproposal for the project is written, planning and first steps for the software development are made.
+**Authors:**
+
+- Eva Martín del Pico [:custom-orcid:](https://orcid.org/0000-0001-8324-2897)
+
+!!! info
+
+    This stage starts with the idea of the research project that includes software. In this stage the proposal for the project is written, planning and first steps for the software development are made.
 
 ## Learning Outcomes
 
@@ -26,20 +32,30 @@ tags:
  >*Exercise*
  >The following challenges explore some _implications_ that choosing one license or another can have. They highlight different aspects of software that licese can govern. 
  >
- >Challenge 1:
- >In the project we are developing, we want to use a very popular library that has a strong copyleft license, but we would like to distribute our project under a more permissive license. What can we do? 
- >
- >Solution: We cannot use that library, we have to find an alternative with a compatible license or adopt a strong copyleft license for our project. License governs reusing the software, with implications for the software integrating it.
 
- >Challenge 2:
- >We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program in an application with a privative license. Is that legal? 
- >
- >Solution: It is perfectly legal, since the applications code that uses my code is not actually being distributed. License can govern the public performance of a software.
+!!! example "Challenge 1"
 
->Challenge 3: 
->We are a team of several people happily developing a software in a public GitHub repository. Since we are not ready to share our code yet, we did not add any license. Is this a good way to prevent anyone making copies or use our code?.  
->
->Solution: In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very colaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by others users.
+    In the project we are developing, we want to use a very popular library that has a strong copyleft license, but we would like to distribute our project under a more permissive license. What can we do?
+ 
+    ??? danger "Solution"
+
+        We cannot use that library, we have to find an alternative with a compatible license or adopt a strong copyleft license for our project. License governs reusing the software, with implications for the software integrating it.
+
+!!! example "Challenge 2"
+
+    We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program in an application with a privative license. Is that legal?
+
+    ??? danger "Solution"
+
+        It is perfectly legal, since the applications code that uses my code is not actually being distributed. License can govern the public performance of a software.
+
+!!! example "Challenge 3"
+
+    We are a team of several people happily developing a software in a public GitHub repository. Since we are not ready to share our code yet, we did not add any license. Is this a good way to prevent anyone making copies or use our code?.
+
+    ??? danger "Solution"
+
+        In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very colaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by others users.
 
 >*Narrative*
 >Useful resources:
@@ -110,7 +126,7 @@ tags:
 > - Provide plenty of data examples for realistic use cases
 
 
-### 2. For each decision, explain **why** it’s important. 
+### 2. For each decision, explain **why** it's important. 
 :bulb: covered in the previous LO 
 ```
  a. licence of the software 
