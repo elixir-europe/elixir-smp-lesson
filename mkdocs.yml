@@ -14,7 +14,7 @@ nav:
       - Pre-course setup: precourse.md
       - Course schedule: course_schedule.md
       - Instructor Notes: instructor-notes.md
-    - Keywords list: keywords.md
+      - Keywords list: keywords.md
 
 theme:
   name: material
