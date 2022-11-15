@@ -47,7 +47,8 @@ markdown_extensions:
       guess_lang: false
   - sane_lists
   - smarty
-  - toc
+  - toc:
+      permalink: "#"
   - pymdownx.superfences
   - attr_list
   - pymdownx.tabbed
