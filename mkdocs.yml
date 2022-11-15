@@ -30,28 +30,21 @@ repo_url: https://github.com/elixir-europe/elixir-smp-lesson
 edit_uri: edit/main/docs/
 
 plugins:
+  - include-markdown
   - tags:
       tags_file: keywords.md
   - search
   - bibtex:
       bib_file: "references.bib"
-  
 
 markdown_extensions:
   - abbr
-  - def_list
-  - footnotes
-  - tables
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
-  - sane_lists
-  - smarty
-  - toc:
-      permalink: "#"
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.tabbed
+  - def_list
+  - footnotes
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -59,6 +52,13 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - sane_lists
+  - smarty
+  - tables
+  - toc:
+      permalink: "#"
 
 extra_css:
   - stylesheets/extra.css
