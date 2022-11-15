@@ -1,11 +1,7 @@
 site_name: ELIXIR Software Management Plan lesson
 nav:
     - Home: index.md
-    - General info: 
-      - Precourse preparations: precourse.md
-      - Course schedule: course_schedule.md
-      - Instructor Notes: instructor-notes.md
-      - Learner Profiles: profiles.md
+    - Learner Profiles: profiles.md
     - Chapters:
       - "Introduction": chapters/introduction.md
       - "Stage 1: Inception": chapters/stage1_inception.md
@@ -14,6 +10,10 @@ nav:
       - "Stage 4: Production": chapters/stage4_production.md
       - "Stage 5: Publication": chapters/stage5_publication.md
       - "Conclusions": chapters/wrap-up_conclusions.md
+    - General info:
+      - Pre-course setup: precourse.md
+      - Course schedule: course_schedule.md
+      - Instructor Notes: instructor-notes.md
     - Keywords list: keywords.md
 
 theme:
