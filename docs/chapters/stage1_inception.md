@@ -25,6 +25,8 @@ tags:
 #### a. licence of the software  
 
  > *Narrative*: Explain what a license is. The license will determine the rules for access and use of the software. It is a legal document, usually composed by a lawyer.
+ > A software license is a legal agreement that outlines the terms and conditions under which a piece of software can be used, distributed, and modified. It's essentially a set of rules that govern how the software can be used and by whom.
+ >  When it comes to software licenses, open source licenses are those that allow the source code of the software to be freely distributed and modified. This is in line with the principles of open science, as it allows anyone to access the software and use it for their own purposes. FAIR science, on the other hand, focuses on making sure that scientific data and research can be easily found, accessed, and used by others. A software license that promotes FAIR science would therefore allow others to easily access and use the software, in line with the principles of openness and accessibility.
  > Note for instructor: [Open Source Development - An Introduction To Ownership And Licensing Issues](https://oss-watch.ac.uk/resources/iprguide)
 
  >**Learning experience** 
@@ -84,6 +86,12 @@ tags:
 ##### iii. will narrow down available online services that can be used
 
 > *Narrative*: 
+> Version control systems are tools that allow developers to keep track of the changes made to a piece of software over time. These systems create a history of all the changes that have been made to the software, and make it easy for developers to roll back to an earlier version if necessary.
+> 
+> GitLab and GitHub are two popular hosting services for version control systems. They allow developers to store their code and track changes to it using tools like Git. Both GitLab and GitHub offer a range of features that make it easy for developers to collaborate on projects and manage their code. For example, they both allow users to create branches (i.e. different versions) of their code, review and merge changes made by others, and track issues and bugs.
+> 
+> In layman's terms, you could think of a version control system as a way of keeping track of different versions of a project, like a book. Each time you make a change to the book, the version control system records the change and saves a new version of the book. This makes it easy to go back and see how the book has changed over time, and to revert to an earlier version if necessary. GitLab and GitHub are like the libraries where you can store and manage your books (i.e. code projects). They provide the tools you need to collaborate with other writers, keep track of changes, and make sure your book stays organized.
+> 
 > Explain version control systems and available compatible hosting services (GitLab, GitLab). Comparative table: https://chiplicity.readthedocs.io/en/latest/_images/VersionControlSystems.png
 > They very likelly fulfill all the requirements mentioned before. In addtition, some of them are not only hosting services, but offer a wide range of additional tools (issues, docker/package registry, CI/CD, pages, etc). 
 > 
