@@ -17,12 +17,18 @@ tags:
 
 **2. For each decision, explain why it’s important.**
 - testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
+
     a. to ensure that the code functions as intended
     b. tests can also act as documentation by showing how the software can be executed and configured
+    
 - include also sample example input and output files.
+
     a. necessary for the development of functioning software, and for ensuring that it works as intended
+    
 - the actual scope, goals and purpose of the software needs to be defined and documented
+
     a. is necessary in focussing the development effort and avoiding feature creep
+    
     b. Crucial in defining functional tests
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
