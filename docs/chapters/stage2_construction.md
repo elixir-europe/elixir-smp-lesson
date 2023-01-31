@@ -24,9 +24,9 @@ tags:
 > - What are the actual scope, goals and purpose of the software? How will these be documented?
 
 #### NEXT TIME: START FROM HERE
-> Narrative: 
-> - How to test your software
-> - Features of example input and output files (recommendations on how to create ideal test files)
+>#### Narrative: 
+> - How to test your software (different types of testing approaches)
+> - Features of example input and output files (recommendations on how to create "ideal" test files)
 > - Effective ways to document your software
 
 
