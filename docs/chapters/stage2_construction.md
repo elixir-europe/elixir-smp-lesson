@@ -22,14 +22,15 @@ tags:
 > - Which testing approach will be used (including the list of the types of test implemented and relevant test parameters)?
 > - Does the testing approach also include sample example input and output files?
 > - What are the actual scope, goals and purpose of the software? How will these be documented?
+> They will write their answers in a shared document. 
+> The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
 
 #### NEXT TIME: START FROM HERE
 >#### Narrative: 
 > - How to test your software (different types of testing approaches)
+>   --> None, Unit, Integration, Functional, End-to-end, Linting, Regression, Frontend - GUI, Other (e.g.)
 > - Features of example input and output files (recommendations on how to create "ideal" test files)
 > - Effective ways to document your software
-
-
 
 **2. For each decision, explain why it’s important.**
 - testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
@@ -48,5 +49,11 @@ tags:
     b. Crucial in defining functional tests
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
+
+1) Documentation: What type of documentation is available, provided with the software and delivered under the same conditions? Please provide a URL (when available).
+2) Documentation: Is the purpose of the software stated in the documentation?
+3) Documentation: Does the documentation describe how to test the software?
+4) Testing: What type of testing do you use?
+5) Testing: Are sample data and/or parameters that can be used to test the software available with the source code?
 
 **4.Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.**
