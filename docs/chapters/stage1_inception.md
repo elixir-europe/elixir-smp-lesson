@@ -73,11 +73,17 @@ tags:
 
 > **Learning experience**  
 >
-> *Exercise*: brainstorm which are the requirements for a system used to storage code while it is being developed.  
+> *Exercise*: brainstorm which are the requirements for a system used to store code while it is being developed.  
 
 > *Narrative*: Explain the different code hosting options (gitlab, github, bitbucket, sourceforge, ...). 
 > Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
+##### ii. will determine how it will preserved
+
+> *Narrative*:
+> Self hosted solutions will require us to explicitly push releases of the software source code to either internal backup systems or third party services (osf.io, zenodo, B2SHARE, SSI).
+> Third party public solutions, like GitHub, eases the preservation through the collaboration with Zenodo, automating most of the process.
+> Public preservation solutions usually provide public, permanent identifiers.
 
 #### c. what kind of versioning system will be used  
 
