@@ -13,6 +13,7 @@ tags:
 **Authors:**
 
 - Eva Martín del Pico [:custom-orcid:](https://orcid.org/0000-0001-8324-2897)
+- José Mª Fernández [:custom-orcid:](https://orcid.org/0000-0002-4806-5140)
 
 !!! info
 
@@ -22,7 +23,37 @@ tags:
 
 ### 1. Describe **what** are the key decisions that need to be made during the Inception phase.  
 
-#### a. licence of the software  
+#### a. decide the software programming language or framework for your research project.
+
+ > *Narrative*: Explain that any programming language is fine to write the software which helps on the research of your scientific problem, but sometimes there are restrictions.
+ > First of all, if you only have experience with a single programming language, then the choice of software code language used in the project is almost taken.
+ > Any programming language (and its ecosystem) has its own strong points and weaknesses. Most of the time any programming language can be used. You should choose the one you are comfortable with.
+ > But sometimes you do not have choice, because either you only know a single programming language, or you are aiming to use specialised hardware, and / or the existing libraries which will cut down the needed development time are tied to one or another language.
+ > In some cases, it is the target ecosystem the determining point. Software communities like bioconductor, machine learning, bioconda or text mining, for instance, only provides feedback on their favoured programming languages.
+ 
+ >**Learning experience**
+ >
+ >*Exercise*
+ >Next challenges explore some _implications_ that choosing one or another programming language can have.
+ >
+
+!!! example "Challenge 1"
+
+    I know how to write programs in R and Javascript (through node.js), and I want to write a command line program to process a FASTQ file with custom quality data representation. Which programming language should I use?
+    
+    ??? danger "Solution"
+    
+        Any of these programming laungages are more than capable enough to open files, read contents applying transformations and filter the output based on some criteria. Use the one you feel more comfortable with.
+
+!!! example "Challenge 2"
+
+    I want to write a deep-learning software which is able to consume analysed single-cell epigenomic data. Which programming language is best suitable for the task?
+    
+    ??? danger "Solution"
+    
+        Most of the single-cell analysis related libraries are available either in R or Python. You can still use any language you already know (for instance, Julia), but it will be harder, as some key libraries will not be available in them.
+
+#### b. licence of the software  
 
  > *Narrative*: Explain what a license is. The license will determine the rules for access and use of the software. It is a legal document, usually composed by a lawyer.
  > A software license is a legal agreement that outlines the terms and conditions under which a piece of software can be used, distributed, and modified. It's essentially a set of rules that govern how the software can be used and by whom.
@@ -68,7 +99,7 @@ tags:
 >- [Clarifications on frequently asked questions regarding choosing a licenses and compilation of guides by the SSI](https://www.software.ac.uk/resources/guides/choosing-open-source-licence) 
 
    
-#### b. where the software will be stored during development   
+#### c. where the software will be stored during development   
 ##### i. will determine how it can be accessed by others 
 
 > **Learning experience**  
@@ -79,7 +110,7 @@ tags:
 > Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
 
-#### c. what kind of versioning system will be used  
+#### d. what kind of versioning system will be used  
 
 ##### i. is used for tracking changes in the software
 ##### ii. serves as a mechanism for due diligence for software projects 
@@ -106,7 +137,7 @@ tags:
 > - The election of the hosting service can limit the options of version control systems -> some repository hosting services like BitBucket only support Git and Mercurial
 
 
-#### d. what kind of input and output standards the software will have 
+#### e. what kind of input and output standards the software will have 
 
 ##### i. will greatly affect the level of adoption
 ##### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
@@ -137,18 +168,22 @@ tags:
 ### 2. For each decision, explain **why** it's important. 
 :bulb: covered in the previous LO 
 ```
- a. licence of the software 
+ a. programming language
+ - i. will determine which existing libraries will be available.
+ - ii. could narrow the software and scientific ecosystems where it could be (re)used.
+ 
+ b. licence of the software 
  - i. will determine the rules for access and use of the software 
 
- b. where the software will be stored during development 
+ c. where the software will be stored during development 
  - i. will determine how it can be accessed by others
 
- c. what kind of versioning system will be used 
+ d. what kind of versioning system will be used 
  - i. is used for tracking changes in the software
  - ii. serves as a mechanism for due diligence for software projects
  - ii. will narrow down available online services that can be used to share code
 
- d. what kind of input and output standards the software will have
+ e. what kind of input and output standards the software will have
 
  - i. will greatly affect the level of adoption
  - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
