@@ -45,7 +45,7 @@ tags:
 
 !!! example "Challenge 2"
 
-    We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program in an application with a privative license. Is that legal?
+    We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program with no modifications in an application with a privative license. Is that legal?
 
     ??? danger "Solution"
 
