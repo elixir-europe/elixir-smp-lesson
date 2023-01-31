@@ -25,7 +25,7 @@ tags:
 > They will write their answers in a shared document. 
 > The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
 
-#### NEXT TIME: START FROM HERE
+#### NEXT TIME: RESTART FROM HERE
 >#### Narrative: 
 > - How to test your software (different types of testing approaches)
 >   --> None, Unit, Integration, Functional, End-to-end, Linting, Regression, Frontend - GUI, Other (e.g.)
