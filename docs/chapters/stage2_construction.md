@@ -17,19 +17,17 @@ tags:
 
 **1. Describe what are the key decisions that need to be made during the Construction phase.**
 
-'''
-Learning experience:
-In small groups groups, learners will try to answer the following questions: 
-- Which testing approach will be used (including the list of the types of test implemented and relevant test parameters)?
-- Does the testing approach also include sample example input and output files?
-- What are the actual scope, goals and purpose of the software? How will these be documented?
-'''
+>#### Learning experience:
+> In small groups groups, learners will try to answer the following questions: 
+> - Which testing approach will be used (including the list of the types of test implemented and relevant test parameters)?
+> - Does the testing approach also include sample example input and output files?
+> - What are the actual scope, goals and purpose of the software? How will these be documented?
 
 #### NEXT TIME: START FROM HERE
-Narrative: 
-- How to test your software
-- Features of example input and output files (recommendations on how to create ideal test files)
-- Effective ways to document your software
+> Narrative: 
+> - How to test your software
+> - Features of example input and output files (recommendations on how to create ideal test files)
+> - Effective ways to document your software
 
 
 
