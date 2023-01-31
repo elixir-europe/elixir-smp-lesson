@@ -18,7 +18,10 @@ tags:
 
 #### a. Documenting how the software can be reliably used by people external to the development group or person 
 
-> *Narrative*: explain how clearly documenting the purpose (scope and possible constraints) of the software is necessary in focussing the development effort (this stage) and avoiding feature creep. It is also crucial towards defining functional tests. 
+> *Narrative*: The first thing to document about a software is its purpose, this is, the intended outcome that it is designed to achieve, what problem it solves, why it being created. The purpose of a software can be defined in terms of user needs, technical requirements, problem to solve, etc, and needs to include the scope and contraints of the software. 
+Defining the purpose of a software is a crucial step in the software development process, as it provides direction and focus to the development team, and helps to ensure that the software meets the needs and expectations of its intended users. A clear definition of the software's purpose can also help to guide decision making throughout the development process, and can be used to evaluate the success of the software after its release.
+
+
 
 > **Learning Experience** 
 > 
@@ -33,7 +36,29 @@ tags:
 
 #### b. Providing tests as extensively as possible (ideally through automated processes)
 
-> *Narrative*: Enumerate and briefly explain the different types of tests that exist.
+> *Narrative*: 
+
+There are several types of software testing, which can be broadly categorized into the following categories:
+
+  - Unit testing: Testing individual units or components of the software to ensure they function as intended.
+
+  - Integration testing: Testing the integration of different components or modules of the software to ensure they work together as expected.
+
+  - Functional testing: Testing the software's functionality to ensure it works as specified and meets the requirements.
+
+  - System testing: Testing the entire software system to ensure it meets the requirements and works as intended.
+  
+  - Exploratory testing: Ad-hoc testing performed by testers to discover new or unexpected issues in the software.
+
+  - Regression testing: Testing the software after changes have been made to ensure the changes did not introduce new bugs or issues.
+
+  - Non-functional testing: Testing the software's non-functional aspects, such as performance, security, usability, and compatibility.
+
+  - Stress testing: Testing the software under extreme or unrealistic conditions to determine its performance and stability limits.
+  
+  - Acceptance testing: Testing the software to ensure it meets the customer's acceptance criteria and is ready for release.
+
+Not all kinds of testing are necessary for every project.
 
 >**Learning Experience**
 >*Discussion*: 
@@ -49,9 +74,21 @@ tags:
 
 > *Brainstorming*:  advantages of using tests. 
 
-> *Narrative*: briefly enumerate the advantages of testing (if not mentioned in the previous brainstorm)
+> *Narrative*: Advantages of testing (if not mentioned in the previous brainstorm) 
+  1. Helps ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
+
+  2. Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
+
+  3. Essential for reproducibility
+
+  4. Enhance the overall trust that the software will work as intended
+
 
 #### c. Setting up Communication channels  
+
+Setting communication channels allow users to: 
+- eport any problems or pose questions about usage and documentation 
+- address issues/bugs.
 
 > *Discussion*. What is your preferred cmmunication channel as a user? and as a developer? Why? 
 
