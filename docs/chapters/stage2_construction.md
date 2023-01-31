@@ -8,12 +8,27 @@ tags:
 {% include-markdown "../links.md" %}
 
 # Stage 2: Construction (prototyping, construction and implementing core functionality)
+
 #### Learning Outcomes:
 
 **1. Describe what are the key decisions that need to be made during the Construction phase.**
-- testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
-- include also sample example input and output files.
-- the actual scope, goals and purpose of the software needs to be defined and documented
+This is the stage in which the main development of the software is taking place and its core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests).
+
+'''
+Learning experience:
+In small groups groups, learners will try to answer the following questions: 
+- Which testing approach will be used (including the list of the types of test implemented and relevant test parameters)?
+- Does the testing approach also include sample example input and output files?
+- What are the actual scope, goals and purpose of the software? How will these be documented?
+'''
+
+#### NEXT TIME: START FROM HERE
+Narrative: 
+- How to test your software
+- Features of example input and output files (recommendations on how to create ideal test files)
+- Effective ways to document your software
+
+
 
 **2. For each decision, explain why it’s important.**
 - testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
