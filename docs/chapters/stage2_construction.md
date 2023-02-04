@@ -17,20 +17,39 @@ tags:
 
 **1. Describe what are the key decisions that need to be made during the Construction phase.**
 
+During the Construction phase, there are two main types of decisions that should be taken:
+1. How will you test your software? How will you make sure it works as intended? This also includes decisions about sample input data that will be used to test the software, as well as decisions about what will be the output of your software.
+2. How are you going to document your code? The documentation should describe not only what the various parts of code do, but also the actual scope, goals and purpose of the software and how to test it. Therefore, you should decide what would be effective ways to document your software.
+
+### Testing or ensuring software functions as intended
+
 >#### Learning experience:
-> In small groups groups, learners will try to answer the following questions: 
-> - Which testing approach will be used (including the list of the types of test implemented and relevant test parameters)?
+> Learners answer the following questions in a shared document: 
+> - Do you test your software?
+> - Which testing approach do you use normally? Would you be able to make a list of the types of test implemented and relevant test parameters?
+> - Which testing approach did you use to test the software at hand?
 > - Does the testing approach also include sample example input and output files?
-> - What are the actual scope, goals and purpose of the software? How will these be documented?
-> They will write their answers in a shared document. 
+> > They will write their answers.
 > The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
 
-#### NEXT TIME: RESTART FROM HERE
->#### Narrative: 
+
+> #### Narrative............................... 
 > - How to test your software (different types of testing approaches)
 >   --> None, Unit, Integration, Functional, End-to-end, Linting, Regression, Frontend - GUI, Other (e.g.)
 > - Features of example input and output files (recommendations on how to create "ideal" test files)
 > - Effective ways to document your software
+
+### Documenting your code
+
+>#### Learning experience:
+> Learners answer the following questions in a shared document: 
+> - What are the actual scope, goals and purpose of the software? How will these be documented?
+> - What type of documentation is available or do you plan to make available?
+> The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
+
+> #### Narrative..................................
+> Different approaches to documenting software 
+
 
 **2. For each decision, explain why it’s important.**
 - testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
@@ -47,6 +66,9 @@ tags:
     a. is necessary in focussing the development effort and avoiding feature creep
     
     b. Crucial in defining functional tests
+
+###
+
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
 
