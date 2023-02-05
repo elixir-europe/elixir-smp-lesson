@@ -78,6 +78,8 @@ During the Construction phase, there are two main types of decisions that should
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
 
+SMP questions relevant to this phase:
+
 1) Documentation: What type of documentation is available, provided with the software and delivered under the same conditions? Please provide a URL (when available).
 2) Documentation: Is the purpose of the software stated in the documentation?
 3) Documentation: Does the documentation describe how to test the software?
