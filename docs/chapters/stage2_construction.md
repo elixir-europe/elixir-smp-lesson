@@ -23,7 +23,9 @@ During the Construction phase, there are two main types of decisions that should
 
 ### Testing or ensuring software functions as intended
 
->#### Learning experience:
+> **Learning Experience** - *Exercise*: 
+
+!!! example "Challenge 1"
 > Learners individually answer the following questions in a shared document: 
 > - Do you test your software?
 > - Which testing approach do you use normally? Would you be able to make a list of the types of test implemented and corresponding relevant test parameters?
@@ -41,7 +43,9 @@ During the Construction phase, there are two main types of decisions that should
 
 ### Documenting your code
 
-> #### Learning experience:
+> **Learning Experience** - *Exercise*: 
+
+!!! example "Challenge 2"
 > In groups, each learner will describe to other group memebers: 
 > - What are the actual scope, goals and purpose of their software; 
 > - How will these be documented;
@@ -81,3 +85,8 @@ During the Construction phase, there are two main types of decisions that should
 5) Testing: Are sample data and/or parameters that can be used to test the software available with the source code?
 
 **4.Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.**
+
+> **Learning Experience** - *Exercise*: 
+
+!!! example "Challenge 3"
+  Go to the project in the [SMW](https://smw.ds-wizard.org/) and complete the previous questions for a piece of software.
