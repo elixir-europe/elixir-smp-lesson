@@ -64,8 +64,27 @@ These files should have the same format and content type of the actual data file
 > Each group will discuss purposes, advantages and disadvantages of the various ways of documenting software/code.
 > The instructor will facilitate a discussion on "How many different ways can be used to document software? Is there any that is more effective than others?"
 
-> *Narrative..................................*
-Different approaches to documenting software. Effective ways to document your software
+> *Narrative: Effective ways to document your software
+
+> From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
+> Best Practices for Writing Documentation:
+
+> 1. Include a README file that contains
+> - A brief description of the project
+> - Installation instructions
+> - A short example/tutorial
+> 2. Allow issue tracker for others
+> 3. Write an API documentation
+> - What a function does
+> - What are the function's parameters or arguments are
+> - What a function returns
+> 4. Document your code
+> 5. Apply coding conventions, such as file organization, comments, naming conventions, programming practices, etc.
+> 6. Include information for contributors
+> 7. Include citation information
+> 8. Include licensing information
+> 9. Link to your e-mail address at the end
+> 10. List all the versions of the files along with the major edits you did in each version
 
 
 **2. For each decision, explain why it’s important.**
