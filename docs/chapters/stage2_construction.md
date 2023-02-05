@@ -54,22 +54,25 @@ These files should have the same format and content type of the actual data file
 
 ### Documenting your code
 
+*"The secret to good documentation is to write it while you're writing the code. You are your first audience. Explain what you're doing to yourself. Future you will thank you!"*
+—- [Victoria Drake November 24, 2020](https://twitter.com/victoriadotdev/status/1331262801797652483?ref_src=twsrc%5Etfw) --
+
 > **Learning Experience** - *Exercise*: 
 
 !!! example "Challenge 2"
-> In groups, each learner will describe to the other group memebers: 
+> 1. In groups, each learner will describe to the other group memebers: 
 > - What are the actual scope, goals and purpose of their software (referring to a piece of software they recently developed or are developing); 
 > - How will scope, goals and purpose be documented;
 > - What type of documentation is available or they plan to make available.
-> Each group will discuss purposes, advantages and disadvantages of the various ways of documenting software/code.
-> The instructor will facilitate a discussion on "How many different ways can be used to document software? Is there any that is more effective than others?"
+> 2. Each group will then discuss purposes, advantages and disadvantages of the various ways of documenting software/code.
+> 3. The instructor will facilitate a discussion on "How many different ways can be used to document software? Is there any that is more effective than others?"
 
-> *Narrative: Effective ways to document your software
+> *Narrative: Effective ways to document your project
 
 > From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
 > Best Practices for Writing Documentation:
 
-> 1. Include a README file that contains
+> 1. Include a README file that contains:
 > - A brief description of the project
 > - Installation instructions
 > - A short example/tutorial
