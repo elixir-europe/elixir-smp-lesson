@@ -48,9 +48,9 @@ NOTE: I REALISED THE NARRATIVE REGARDING **DIFFERENT (COMMON) TYPES OF TESTING A
 #### Sample example input and output files.
 Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended.
 These files should have the same format and content type of the actual data files, i.e. those for which the software is being developed. However, they should *not* be the actual data files, as these cannot be always kept under control and it may be difficult to decipher how your software behaves when running on actual data file. Aspects you should think about when you create toy example input data are:
-- file size. The the size of the file should be such that you have complete control over input and output. Ideally, you should be able to do manually the calculations that your software does automatically, so that you know in advance what you can expect the output file will contain. Unless you specifically need to test the performance of the software on big data files, the smaller the input file size, the better.
-- file format. Input file format need to be exactly the same as the actual data files. 
-- file content. The content of the file should be exactly of the same type of the actual data file and include all the possibilities and potential exceptions that could be observed in actual data. 
+- *file size*. The the size of the file should be such that you have complete control over input and output. Ideally, you should be able to do manually the calculations that your software does automatically, so that you know in advance what you can expect the output file will contain. Unless you specifically need to test the performance of the software on big data files, the smaller the input file size, the better.
+- *file format*. Input file format need to be exactly the same as the actual data files. 
+- *file content*. The content of the file should be exactly of the same type of the actual data file and include all the possibilities and potential exceptions that could be observed in actual data. 
 
 ### Documenting your code
 
@@ -82,23 +82,29 @@ Different approaches to documenting software. Effective ways to document your so
 Why is it important? Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended. Having the purpose (scope, and possible constraints) of the software clearly documented is necessary in focussing the development effort and avoiding feature creep. It is also crucial towards defining functional tests. Tests can also act as documentation by showing how the software can be executed and configured, but they should not be a replacement for the in-depth documentation.
 
 
-- testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
-
-    a. to ensure that the code functions as intended
-    b. tests can also act as documentation by showing how the software can be executed and configured
+Defiining how your software will be tested during development is essential to ensure that the code functions as intended. Tests can also act as documentation by showing how the software can be executed and configured
     
-- include also sample example input and output files.
-
-    a. necessary for the development of functioning software, and for ensuring that it works as intended
+Including sample example input and output files is absolutely necessary for the development of functioning software, and for ensuring that it works as intended.
     
-- the actual scope, goals and purpose of the software needs to be defined and documented
+Writing good documentation to your software will help create more readable and efficient code with minimal errors. It is necessary in focussing the development effort and avoiding feature creep, and crucial in defining functional tests.
 
-    a. is necessary in focussing the development effort and avoiding feature creep
-    
-    b. Crucial in defining functional tests
+!!! info
+    From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
 
-###
+Documentation effectively connects humans and machines.
 
+Why writing documentation is important:
+For you:
+- You will be using your code in 6 months
+- You want people to use your code and give you credit
+- You want to learn self-determination
+- Others would be encouraged to contribute to your code
+For others: 
+- Others can easily use your code and build upon it
+For science:
+- Advances the science
+- Encourages open science 
+- Allows reproducibility and transparency
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
 
