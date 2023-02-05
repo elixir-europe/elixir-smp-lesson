@@ -12,12 +12,12 @@ tags:
 !!! info
 
     This is the stage in which the main development of the software is taking place and its core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests).
-
+    
 #### Learning Outcomes:
 
 **1. Describe what are the key decisions that need to be made during the Construction phase.**
 
-During the Construction phase, there are two main types of decisions that should be taken:
+ What is important? During the Construction phase, there are two main types of important decisions that should be taken:
 1. How will you test your software? How will you make sure it works as intended? This also includes decisions about sample input data that will be used to test the software, as well as decisions about what will be the output of your software.
 2. How are you going to document your code? The documentation should describe not only what the various parts of code do, but also the actual scope, goals and purpose of the software and how to test it. Therefore, you should decide what would be effective ways to document your software.
 
@@ -26,38 +26,62 @@ During the Construction phase, there are two main types of decisions that should
 > **Learning Experience** - *Exercise*: 
 
 !!! example "Challenge 1"
-> Learners individually answer the following questions in a shared document: 
-> - Do you test your software?
-> - Which testing approach do you use normally? Would you be able to make a list of the types of test implemented and corresponding relevant test parameters?
-> - Which testing approach did you use to test the software at hand?
-> - Does the testing approach also include sample example input and output files?
+> Learners answer individually the following questions in a shared document: 
+> Think about a piece of software you recently developed or you're developing.
+> - Did you test it? / Are you testing it?
+> - Which testing approach(es) are you using?
+> - Does your testing approach also include sample example input and output files?
 > - If yes, what are the relevant features of such files?
-> The instructor will discuss the answers and use the discussion as a starting point to deliver narrative.  
+> - Which testing approach(es) do you use normally? Would you be able to make a list of the types of tests you usually implement and of the corresponding relevant test parameters?
+> 
+> The instructor will discuss the answers and use the discussion as a starting point to deliver the content below.  
 
+------------------------------------------
+> *Narrative............................... 
+NOTE: I REALISED THE NARRATIVE REGARDING **DIFFERENT (COMMON) TYPES OF TESTING APPROACHES** I WANTED TO INSERT HERE IS ALREADY PRESENT IN STAGE 3 (WRITTEN BY EVA). I BELIEVE IT WOULD FIT BETTER HERE (CONSTRUCTION) THAN IN STAGE 3 (APPLICATION). WHAT DO YOU THINK?*
 
-> #### Narrative............................... 
-> - How to test your software (different types of testing approaches)
+#### Different (common) types of testing approaches
 >   --> None, Unit, Integration, Functional, End-to-end, Linting, Regression, Frontend - GUI, Other (e.g.)
-> - Features of example input and output files (recommendations on how to create "ideal" test files)
-> - Effective ways to document your software
+>   
+------------------------------------------
+
+#### Sample example input and output files.
+Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended.
+These files should have the same format and content type of the actual data files, i.e. those for which the software is being developed. However, they should *not* be the actual data files, as these cannot be always kept under control and it may be difficult to decipher how your software behaves when running on actual data file. Aspects you should think about when you create toy example input data are:
+- file size. The the size of the file should be such that you have complete control over input and output. Ideally, you should be able to do manually the calculations that your software does automatically, so that you know in advance what you can expect the output file will contain. Unless you specifically need to test the performance of the software on big data files, the smaller the input file size, the better.
+- file format. Input file format need to be exactly the same as the actual data files. 
+- file content. The content of the file should be exactly of the same type of the actual data file and include all the possibilities and potential exceptions that could be observed in actual data. 
 
 ### Documenting your code
 
 > **Learning Experience** - *Exercise*: 
 
 !!! example "Challenge 2"
-> In groups, each learner will describe to other group memebers: 
-> - What are the actual scope, goals and purpose of their software; 
-> - How will these be documented;
+> In groups, each learner will describe to the other group memebers: 
+> - What are the actual scope, goals and purpose of their software (referring to a piece of software they recently developed or are developing); 
+> - How will scope, goals and purpose be documented;
 > - What type of documentation is available or they plan to make available.
 > Each group will discuss purposes, advantages and disadvantages of the various ways of documenting software/code.
-> The instructor will facilitate a discussion on "What's the purpose of documenting software? How many different ways can be used to document software? Is there any that is more effective than others? 
+> The instructor will facilitate a discussion on "How many different ways can be used to document software? Is there any that is more effective than others?"
 
-> #### Narrative..................................
-> Different approaches to documenting software 
+> *Narrative..................................*
+Different approaches to documenting software. Effective ways to document your software
 
 
 **2. For each decision, explain why it’s important.**
+
+> **Learning Experience** - *Exercise*: 
+
+!!! example "Challenge 3"
+> The instructor will facilitate a discussion on the following three spects:
+>  - "Why defining functional tests is important?
+>  Why sample input and output files are necessary? 
+>  What's the purpose of documenting software?" 
+
+> *Narrative*
+Why is it important? Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended. Having the purpose (scope, and possible constraints) of the software clearly documented is necessary in focussing the development effort and avoiding feature creep. It is also crucial towards defining functional tests. Tests can also act as documentation by showing how the software can be executed and configured, but they should not be a replacement for the in-depth documentation.
+
+
 - testing approach needs to be defined (incl. the list of the types of test implemented and relevant test parameters)
 
     a. to ensure that the code functions as intended
