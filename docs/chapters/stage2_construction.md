@@ -90,7 +90,7 @@ Writing good documentation to your software will help create more readable and e
 
 !!! info
 
-    From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
+From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
 
 Documentation effectively connects humans and machines.
 
