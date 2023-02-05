@@ -88,24 +88,23 @@ Including sample example input and output files is absolutely necessary for the 
     
 Writing good documentation to your software will help create more readable and efficient code with minimal errors. It is necessary in focussing the development effort and avoiding feature creep, and crucial in defining functional tests.
 
-!!! info
 
-From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
+> From the [Berkley Library Guide on how to write good documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation):
 
-Documentation effectively connects humans and machines.
+> Documentation effectively connects humans and machines.
 
-Why writing documentation is important:
-For you:
-- You will be using your code in 6 months
-- You want people to use your code and give you credit
-- You want to learn self-determination
-- Others would be encouraged to contribute to your code
-For others: 
-- Others can easily use your code and build upon it
-For science:
-- Advances the science
-- Encourages open science 
-- Allows reproducibility and transparency
+> Why writing documentation is important:
+> For you:
+> - You will be using your code in 6 months
+> - You want people to use your code and give you credit
+> - You want to learn self-determination
+> - Others would be encouraged to contribute to your code
+> For others: 
+> - Others can easily use your code and build upon it
+> For science:
+> - Advances the science
+> - Encourages open science 
+> - Allows reproducibility and transparency
 
 **3.Identify the specific SMP questions that are relevant in this Phase.**
 
