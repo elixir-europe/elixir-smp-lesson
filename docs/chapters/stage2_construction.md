@@ -24,13 +24,13 @@ During the Construction phase, there are two main types of decisions that should
 ### Testing or ensuring software functions as intended
 
 >#### Learning experience:
-> Learners answer the following questions in a shared document: 
+> Learners individually answer the following questions in a shared document: 
 > - Do you test your software?
-> - Which testing approach do you use normally? Would you be able to make a list of the types of test implemented and relevant test parameters?
+> - Which testing approach do you use normally? Would you be able to make a list of the types of test implemented and corresponding relevant test parameters?
 > - Which testing approach did you use to test the software at hand?
 > - Does the testing approach also include sample example input and output files?
-> > They will write their answers.
-> The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
+> - If yes, what are the relevant features of such files?
+> The instructor will discuss the answers and use the discussion as a starting point to deliver narrative.  
 
 
 > #### Narrative............................... 
@@ -41,11 +41,13 @@ During the Construction phase, there are two main types of decisions that should
 
 ### Documenting your code
 
->#### Learning experience:
-> Learners answer the following questions in a shared document: 
-> - What are the actual scope, goals and purpose of the software? How will these be documented?
-> - What type of documentation is available or do you plan to make available?
-> The instructor will discuss the answers and use the discussion as a starting point to deliver the following narrative.  
+> #### Learning experience:
+> In groups, each learner will describe to other group memebers: 
+> - What are the actual scope, goals and purpose of their software; 
+> - How will these be documented;
+> - What type of documentation is available or they plan to make available.
+> Each group will discuss purposes, advantages and disadvantages of the various ways of documenting software/code.
+> The instructor will facilitate a discussion on "What's the purpose of documenting software? How many different ways can be used to document software? Is there any that is more effective than others? 
 
 > #### Narrative..................................
 > Different approaches to documenting software 
