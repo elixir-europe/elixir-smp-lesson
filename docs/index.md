@@ -1,50 +1,17 @@
 ---
-title: "Home / About"
+title: "Home"
 ---
 
 {% include-markdown "links.md" %}
 
-## Quick intro to this template
+## About this lesson
 
-You can edit pages in [markdown][markdown]. However, this theme ([material][mkdocs-material]) has many fancy extensions, like [admonitions][mkdocs-admonitions]:
+This lesson guides through how to complete a Software Management Plan (SMP), introducing the language and concepts required to understand the implications of the different stages and technologies/best-practices involved.
 
-!!! info "Using html snippets"
-    If you want to add an image, the best way would be to use html, e.g:
-
-    ```html
-    <figure>
-    <img src="https://elixir-europe.org/sites/default/files/ebif_news_release_image_news_landingpageimage_.png" width="600" alt="Image on elixir landing page"/>
-    <figcaption> Elixir image </figcaption>
-    </figure>
-    ```
-    
-    Which would result in:
-
-    <figure>
-    <img src="https://elixir-europe.org/sites/default/files/ebif_news_release_image_news_landingpageimage_.png" width="600" alt="Image on elixir landing page"/>
-    <figcaption> Elixir image </figcaption>
-    </figure>
-
-    If you want to use local images, add them to `docs/assets/images` and refer to them in the html as a relative path, e.g.:
-
-    ```html
-    <figure>
-    <img src="../assets/images/elixir_image.png" width="600" alt="Image on elixir landing page"/>
-    <figcaption> Elixir image </figcaption>
-    </figure>
-    ```
-
-    Resulting in: 
-
-    <figure>
-    <img src="../assets/images/elixir_image.png" width="600" alt="Image on elixir landing page"/>
-    <figcaption> Elixir image </figcaption>
-    </figure>
-
-By using the bibtex plugin, we can use citations. Add your references in `references.bib`, and cite [@hoebelheinrich_nancy_j_2022_6769695] like this:
-
-```
-[@firstauthor_2022]
-```
-
-\bibliography
+- [Introduction](chapters/introduction/)
+- [Stage 1: Inception](chapters/stage1_inception/)
+- [Stage 2: Construction](chapters/stage2_construction/)
+- [Stage 3: Application](chapters/stage3_application/)
+- [Stage 4: Production](chapters/stage4_production/)
+- [Stage 5: Publication](chapters/stage5_publication/)
+- [Conclusions](chapters/conclusions/)
