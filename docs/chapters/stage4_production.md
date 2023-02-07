@@ -15,7 +15,7 @@ tags:
 
 !!! info
 
-In this phase, the software is used to generate publishable research data in a consistent, stableand reproducible way. The software should be easily reusable by other researchers with their datasets. Often this is the time when the software is being deployed on a High-PerformanceComputing infrastructure (e.g. local cluster, supercomputer etc.) or a cloud infrastructure. To ensure the software can be easily and successfully deployed, soft and hard dependencies need to be captured (e.g. versions of libraries or packages, databases and other resources, listing required / recommended packages, etc). This is often done by bundling and packaging all necessary software through different approaches, including static binaries, software containers,virtual machines or any other solution that encapsulates the entire required environment. Specific dependencies on hardware (e.g. CPU optimisations, GPU model, etc) needed by the different execution profiles should also be documented clearly.
+In this phase, the software is used to generate publishable research data in a consistent, stable and reproducible way. The software should be easily reusable by other researchers with their datasets. Often this is the time when the software is being deployed on a High-Performance Computing infrastructure (e.g. local cluster, supercomputer etc.) or a cloud infrastructure. To ensure the software can be easily and successfully deployed, soft and hard dependencies need to be captured (e.g. versions of libraries or packages, databases and other resources, listing required / recommended packages, etc). This is often done by bundling and packaging all necessary software through different approaches, including static binaries, software containers, virtual machines or any other solution that encapsulates the entire required environment. Specific dependencies on hardware (e.g. CPU optimisations, GPU model, etc) needed by the different execution profiles should also be documented clearly.
 
 ## Learning Outcomes
 
@@ -25,7 +25,7 @@ In this phase, the software is used to generate publishable research data in a c
 
  > *Narrative*: Explain that (re-)use and reproducibility of the software are fundamental aspects of a research software, when considered ready for production phase.
  > The most crucial aspect here is to ensure the (re-)use and reproducibility of the software, by clearly documenting any OS/Software/hardware dependencies. 
- > This can be achieved through different methods (incl. registry and package managers, containerisation,etc.)
+ > This can be achieved through different methods (incl. registry and package managers, containerisation, etc.)
  
  >**Learning experience**
  >
@@ -39,7 +39,7 @@ In this phase, the software is used to generate publishable research data in a c
 ### 2. For each consideration, explain why it’s important.
 
 
-:bulb: covered in the previous LO 
+:bulb: covered in the previous Learning Outcome
 ```
 a. ensure the (re-)use and reproducibility of the software
 
