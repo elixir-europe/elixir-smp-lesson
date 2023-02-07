@@ -103,21 +103,27 @@ Setting communication channels allow users to:
 
 ??? abstract "Learning outcomes already covered in previos sections"
 
- 2. For each activity, explain why it’s important. 
+2. For each activity, explain why it’s important. 
 
-  a. Documenting how the software can be reliably used by people external to the development group or person  
-   i. to ensure adoption/use of the software outside the original developer
-  
-  b. Providing tests as extensively as possible (ideally through automated processes) 
-   i. Helps to ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed. 
-   ii. Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.
-   iii. Essential for reproducibility
-   iv. Enhance the overall trust that the software will work as intended 
-
-  c. Setting up Communication channels
-   i. Users to report any problems or pose questions about usage and documentation.
-   ii. Clarifying the process to address issues/bugs: what it is expected to report, which technical details should be provided, the code of conduct, etc...
-   iii. Different user profiles require different communication channels. i.e. a potential developer and an end user could use different communication and reporting channels.
+   <ol type="a">
+    <li>Documenting how the software can be reliably used by people external to the development group or person</li>
+    <ol type="i">
+        <li>To ensure adoption/use of the software outside the original developer</li>
+    </ol>
+    <li>Providing tests as extensively as possible (ideally through automated processes) </li>
+    <ol type="i">
+        <li>Helps to ensure that when something is fixed, it will not break other things or if it does, it will not go unnoticed.</li>
+        <li>Ensure that the documented functionality is stable, as well as identifying potential bugs and/or issues.</li>
+        <li>Essential for reproducibility</li>
+        <li>Enhance the overall trust that the software will work as intended </li>
+    </ol>
+    <li>Setting up Communication channels</li>
+    <ol type="i">
+        <li>Users to report any problems or pose questions about usage and documentation.</li>
+        <li>Clarifying the process to address issues/bugs: what it is expected to report, which technical details should be provided, the code of conduct, etc...</li>
+        <li>Different user profiles require different communication channels. i.e. a potential developer and an end user could use different communication and reporting channels.</li>
+    </ol>
+  </ol>
   
 
 ### 3. Identify the specific SMP questions that are relevant in this Phase. 
