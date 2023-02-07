@@ -8,6 +8,8 @@ title: "Home"
 
 This lesson guides through how to complete a Software Management Plan (SMP), introducing the language and concepts required to understand the implications of the different stages and technologies/best-practices involved.
 
+The lesson was designed with different target audiences in mind. Please visit [the learner profiles page](profiles/) if you would like to find if the lesson could be useful to you.
+
 - [Introduction](chapters/introduction/)
 - [Stage 1: Inception](chapters/stage1_inception/)
 - [Stage 2: Construction](chapters/stage2_construction/)
