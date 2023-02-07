@@ -26,10 +26,10 @@ tags:
 #### a. decide the software programming language or framework for your research project.
 
  > *Narrative*: Explain that any programming language is fine to write the software which helps on the research of your scientific problem, but sometimes there are restrictions.
- > First of all, if you only have experience with a single programming language, then the choice of software code language used in the project is almost taken.
- > Any programming language (and its ecosystem) has its own strong points and weaknesses. Most of the time any programming language can be used. You should choose the one you are comfortable with.
- > But sometimes you do not have choice, because either you only know a single programming language, or you are aiming to use specialised hardware, and / or the existing libraries which will cut down the needed development time are tied to one or another language.
- > In some cases, it is the target ecosystem the determining point. Software communities like bioconductor, machine learning, bioconda or text mining, for instance, only provides feedback on their favoured programming languages.
+ > First of all, if you only have experience with a single programming language, then the decision regarding the software code language to be used in the project is almost taken.
+ > Any programming language (and its ecosystem) has its own strong points and weaknesses. In most cases, any programming language can be used. You should choose the one you are comfortable with.
+ > However, sometimes you do not have choice, because either you only know a single programming language, or you are aiming to use specialised hardware, and / or the existing libraries which will reduce the required development time are tied to one or another language.
+ > In some cases, the target ecosystem is the determining factor. Software communities like bioconductor, machine learning, bioconda or text mining, for instance, only provide feedback on their favoured programming languages.
  
  >**Learning experience**
  >
@@ -43,7 +43,7 @@ tags:
     
     ??? danger "Solution"
     
-        Any of these programming laungages are more than capable enough to open files, read contents applying transformations and filter the output based on some criteria. Use the one you feel more comfortable with.
+        Any of these programming languages are more than capable enough to open files, read contents applying transformations and filter the output based on some criteria. Use the one you feel more comfortable with.
 
 !!! example "Challenge 2"
 
@@ -53,7 +53,7 @@ tags:
     
         Most of the single-cell analysis related libraries are available either in R or Python. You can still use any language you already know (for instance, Julia), but it will be harder, as some key libraries will not be available in them.
 
-#### b. licence of the software  
+#### b. decide the licence for your research project. 
 
  > *Narrative*: Explain what a license is. The license will determine the rules for access and use of the software. It is a legal document, usually composed by a lawyer.
  > A software license is a legal agreement that outlines the terms and conditions under which a piece of software can be used, distributed, and modified. It's essentially a set of rules that govern how the software can be used and by whom.
@@ -63,7 +63,7 @@ tags:
  >**Learning experience** 
  >
  >*Exercise*
- >The following challenges explore some _implications_ that choosing one license or another can have. They highlight different aspects of software that licese can govern. 
+ >The following challenges explore some _implications_ that choosing one license or another can have. They highlight different aspects of software that a license can govern. 
  >
 
 !!! example "Challenge 1"
@@ -76,7 +76,7 @@ tags:
 
 !!! example "Challenge 2"
 
-    We developed our project, a command line program, and finally realeased it under GPL-3. Someone used that program with no modifications in an application with a privative license. Is that legal?
+    We developed our project, a command line program, and finally released it under GPL-3. Someone used that program with no modifications in an application with a privative license. Is that legal?
 
     ??? danger "Solution"
 
@@ -84,15 +84,15 @@ tags:
 
 !!! example "Challenge 3"
 
-    We are a team of several people happily developing a software in a public GitHub repository. Since we are not ready to share our code yet, we did not add any license. Is this a good way to prevent anyone making copies or use our code?.
+    We are a team of several people happily developing a software in a public GitHub repository. Since we are not ready to share our code yet, we did not add any license. Is this a good way to prevent anyone making copies or use our code?
 
     ??? danger "Solution"
 
-        In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very colaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by other users.
+        In absence of a license, the code is under exclusive copyright, which means copying or using it comes with a risk of litigations and take-downs, including the very collaborators of the code! However, in this case, GitHub might be copying your repository and using it as stated in the GitHub Terms and Conditions. Any public GitHub repository can be forked by other users.
 
 >*Narrative*
 >Useful resources:
->- Guides to assist in the election of a license:
+>- Guides to assist in the selection of a license:
 >    - https://choosealicense.com/
 >    - https://www.gnu.org/licenses/license-recommendations.html
 >
@@ -104,12 +104,12 @@ tags:
 
 > **Learning experience**  
 >
-> *Exercise*: brainstorm which are the requirements for a system used to store code while it is being developed.  
+> *Exercise*: brainstorm which are the requirements for a system, used to store code while it is being developed.  
 
 > *Narrative*: Explain the different code hosting options (gitlab, github, bitbucket, sourceforge, ...). 
 > Depending on the requirements, like privacy-related ones, some systems will be more suitable (GitLab private instance, for example). 
 
-##### ii. will determine how it will preserved
+##### ii. will determine how it will be preserved
 
 > *Narrative*:
 > Self hosted solutions will require us to explicitly push releases of the software source code to either internal backup systems or third party services (osf.io, zenodo, B2SHARE, SSI).
@@ -125,12 +125,12 @@ tags:
 > *Narrative*: 
 > Version control systems are tools that allow developers to keep track of the changes made to a piece of software over time. These systems create a history of all the changes that have been made to the software, and make it easy for developers to roll back to an earlier version if necessary.
 > 
-> GitLab and GitHub are two popular hosting services for version control systems. They allow developers to store their code and track changes to it using tools like Git. Both GitLab and GitHub offer a range of features that make it easy for developers to collaborate on projects and manage their code. For example, they both allow users to create branches (i.e. different versions) of their code, review and merge changes made by others, and track issues and bugs. Also, these systems provide continuous integration hooks (i.e. to automatically build binaries) to their facilities or third-party ones.
+> GitLab and GitHub are two popular hosting services for version control systems. They allow developers to store their code and track changes to it using tools like Git. Both GitLab and GitHub offer a range of features that make it easy for developers to collaborate on projects and manage their code. For example, they both allow users to create branches (i.e., different versions) of their code, review and merge changes made by others, and track issues and bugs. Also, these systems provide continuous integration hooks (i.e., to automatically build binaries) to their facilities or third-party ones.
 > 
-> In layman's terms, you could think of a version control system as a way of keeping track of different versions of a project, like a book. Each time you make a change to the book, the version control system records the change and saves a new version of the book. This makes it easy to go back and see how the book has changed over time, and to revert to an earlier version if necessary. GitLab and GitHub are like the libraries where you can store and manage your books (i.e. code projects). They provide the tools you need to collaborate with other writers, keep track of changes, and make sure your book stays organized.
+> In layman's terms, you could think of a version control system as a way of keeping track of different versions of a project, like a book. Each time you make a change to the book, the version control system records the change and saves a new version of the book. This makes it easy to go back and see how the book has changed over time, and to revert to an earlier version if necessary. GitLab and GitHub are like the libraries where you can store and manage your books (i.e., code projects). They provide the tools you need to collaborate with other writers, keep track of changes, and make sure your book stays organized.
 > 
 > Explain version control systems and available compatible hosting services (GitLab, GitLab). Comparative table: https://chiplicity.readthedocs.io/en/latest/_images/VersionControlSystems.png
-> They very likelly fulfill all the requirements mentioned before. In addtition, some of them are not only hosting services, but offer a wide range of additional tools (issues, docker/package registry, CI/CD, pages, etc). 
+> They very likelly fulfill all the requirements mentioned before. In addition, some of them are not only hosting services, but offer a wide range of additional tools (issues, docker/package registry, CI/CD, pages, etc). 
 > 
 > Advantages of version control:
 > - Systematic tracking changes in the software -> version control != version history 
@@ -146,8 +146,8 @@ tags:
 #### e. what kind of input and output standards the software will have 
 
 ##### i. will greatly affect the level of adoption
-##### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
-##### iii. allow for reuse with their own datasets.
+##### ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and  
+##### iii. will allow for reuse with their own datasets.
 
 > **Learning experience**
 > 
@@ -157,7 +157,7 @@ tags:
 > (among others) 
 > 
 > - Data reformatting to meet custom data formats comes with high risk of introducing errors.
-> - There are libraries to effectively handle common data formats without risk of truncating data.
+> - There are libraries to effectively handle common data formats without the risk of truncating data.
 > - Easier to integrate with other software and use with their own datasets, so increased adoption by users.
 
 > Exercise: 
@@ -165,7 +165,7 @@ tags:
 > Solution:
 > (among others)
 > 
-> - Create a format specification a register it in FAIRsharing -> makes the format public, providing identifier, contact, etc
+> - Create a format specification and register it in FAIRsharing -> makes the format public, providing identifier, contact, etc
 > - Use a schema to describe the format (machine readable representation) -> facilitates users the task of transforming their data to my custom format
 > - Provide a validator for my format -> facilitates users the task of transforming their data to my custom format
 > - Provide plenty of data examples for realistic use cases
@@ -192,8 +192,8 @@ tags:
  e. what kind of input and output standards the software will have
 
  - i. will greatly affect the level of adoption
- - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and will 
- - iii. allow for reuse with their own datasets.
+ - ii. Choosing standards in the field will make it easier for adopters to integrate the tool in their own workflows and 
+ - iii. will allow for reuse with their own datasets.
  ``` 
  
 ### 3. Identify the specific SMP questions that are relevant in this Phase. 
@@ -202,7 +202,7 @@ tags:
 > 
 > Enumerate the questions: 
 > 
-> - Accessibilty 1. What is the name of the software? 
+> - Accessibility 1. What is the name of the software? 
 > - Accessibility 2. How can the software be accessed by third parties? 
 > - Accessibility 3. Does your software have a license? 
 > - Interoperability 1. Do you use existing and standard input/output formats? 
