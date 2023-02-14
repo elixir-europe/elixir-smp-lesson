@@ -23,6 +23,21 @@ tags:
 
 ### Testing or ensuring software functions as intended
 
+> *Narrative*: 
+
+There are several types of software testing, which can be broadly categorized into the following categories:
+- Unit testing: Testing individual units or components of the software project to ensure they function as intended.
+- Integration testing: Testing the integration of different components or modules of the software project to ensure they work together as expected.
+- Functional testing: Testing the software's functionality to ensure it works as specified and meets the requirements.
+- System testing: Testing the entire software system to ensure it meets the requirements and works as intended. 
+- Exploratory testing: Ad-hoc testing performed by testers to discover new or unexpected issues in the software.
+- Regression testing: Testing the software after changes have been made to ensure the changes did not introduce new bugs or issues.
+- Non-functional testing: Testing the software's non-functional aspects, such as performance, security, usability, and compatibility.
+- Stress testing: Testing the software under extreme or unrealistic conditions to determine its performance and stability limits.
+- Acceptance testing: Testing the software to ensure it meets the customer's acceptance criteria and is ready for release.
+
+Not all kinds of testing are necessary for every project.
+
 > **Learning Experience** - *Exercise*: 
 
 !!! example "Challenge 1"
@@ -57,6 +72,14 @@ These files should have the same format and content type of the actual data file
 *"The secret to good documentation is to write it while you're writing the code. You are your first audience. Explain what you're doing to yourself. Future you will thank you!"*
 —- [Victoria Drake November 24, 2020](https://twitter.com/victoriadotdev/status/1331262801797652483?ref_src=twsrc%5Etfw) --
 
+#### Documenting scope, goals and purpose of the software
+
+The first thing to document about a software is its purposes. These are: the intended outcome that it is designed to achieve; what problem it solves; why it is being created; etc... The main purpose of a software can be defined in terms of user needs, technical requirements, problems to solve, etc... It needs to include both the scope and constraints of the software. 
+
+Defining the purpose of a software piece is a crucial step in the software development process, as it provides insight, direction and focus to the development team. It also helps to ensure that the software meets the needs and expectations of its intended users. A clear definition of the software's purpose can also help to guide decision making throughout the development process, and it should be used to evaluate the success of the software after its release.
+
+
+
 > **Learning Experience** - *Exercise*: 
 
 !!! example "Challenge 2"
@@ -88,6 +111,20 @@ These files should have the same format and content type of the actual data file
 > 8. Include licensing information
 > 9. Link to your e-mail address at the end
 > 10. List all the versions of the files along with the major edits you did in each version
+
+
+> **Learning Experience** - *Exercise* 
+
+!!! example "Challenge 1"
+  Think of two pieces or components of software you normally use. 
+  Imagine you are working on a new project where you have to provide the compound usage to a third party. But, unfortunatedly, you cannot redistribute the compound usage due to some licensing incompatibilities. Your only alternative is to develop one or both from scratch for your usual purposes. In the worst scenario, two colleagues, both experienced research software engineers, should help you with the reimplementations to speed up the process.
+  
+  To help them get a clear idea of what you want to build, for each software, define: 
+
+ 1. Purpose, scope and constraints. 
+ 
+ 2. Two functional tests the finished software components must be able to pass.
+
 
 
 **2. For each decision, explain why it’s important.**
