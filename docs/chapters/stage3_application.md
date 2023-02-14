@@ -17,7 +17,7 @@ tags:
 
 
 !!! info 
-  This is the stage in which core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data. During this stage, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests). 
+  In this stage the software can be readily applied to all relevant data, still used mostly by the development team (or the lone developer). The primary focus at this stage is the quality assessment of the software, i.e. provide a battery of tests, ideally fully automated, that ensure valid execution and behaviour. Also, care should be given to providing proper instructions to assure the software can be easily installed and set up in common scenarios
  
 ## Learning Outcomes
 
@@ -27,7 +27,16 @@ tags:
 
 > *Narrative*: 
 
-TO BE ADDED
+Proper documentation of software is critical for ensuring that it can be used reliably over time by various individuals. This is especially important in scientific fields, where research software is often developed to aid in the analysis of data.
+
+One way to ensure that software is well-documented is to create a clear and detailed documentation. This documentation should include step-by-step instructions for how to use the software, as well as explanations of any key concepts or terminology that may be unfamiliar to users.
+
+Additionally, it can be helpful to provide examples of how the software can be used to solve common problems or perform common tasks. These examples should be relevant to the scientific field in question and should be accompanied by clear explanations of the underlying processes and assumptions.
+
+Finally, it is important to update the documentation regularly as the software evolves. This will ensure that users always have access to the most up-to-date information and will help to prevent confusion or errors caused by outdated instructions.
+
+By taking the time to create comprehensive and up-to-date documentation, developers can ensure that their software is accessible and reliable for a wide range of users, including those outside of the development group.
+
 
 > **Learning Experience** - *Exercise* 
 
@@ -39,7 +48,12 @@ TO ADD
 
 > *Narrative*: 
 
-TO ADD
+As defined before in Stage 2, testing is a critical component of software development, as it helps to ensure that the software works as intended and is free of bugs or errors. Having the test defined for internal use, it is important to ensure that the software testing process is made available to the end users, such as through automated testing.
+
+Automated testing involves creating scripts or programs that can automatically test different aspects of the software, such as its functionality, performance, and security. These scripts can be run repeatedly to ensure that the software is functioning as intended and that any changes or updates do not introduce new errors or bugs.
+
+Automated testing can be especially helpful in large software projects, where manual testing can be time-consuming and prone to human error. By automating the testing process, developers can save time and reduce the risk of introducing new errors or issues, while have a systematic way of getting direct feedback from the end users.
+
 
 >**Learning Experience** - *Discussion* 
 
