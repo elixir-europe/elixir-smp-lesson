@@ -51,6 +51,23 @@ Not all kinds of testing are necessary for every project.
 > 
 > The instructor will discuss the answers and use the discussion as a starting point to deliver the content below.  
 
+
+>**Learning Experience** - *Discussion* 
+
+!!! question "Discussion"
+
+  Do you do test-driven development? Why/why not? 
+
+>**Learning Experience** - *Exercise*: 
+
+!!! example "Challenge 2"
+  Think of a familiar case where test-driven development was not applied (or was not applicable, like in a fast-pace developing environment, early stages of development, prototyping, ...). Describe:
+
+  - Two situations where a test was necessary and why.
+  - Two situations where a test was prescindible and why.
+
+
+
 ------------------------------------------
 > *Narrative............................... 
 NOTE: I REALISED THE NARRATIVE REGARDING **DIFFERENT (COMMON) TYPES OF TESTING APPROACHES** I WANTED TO INSERT HERE IS ALREADY PRESENT IN STAGE 3 (WRITTEN BY EVA). I BELIEVE IT WOULD FIT BETTER HERE (CONSTRUCTION) THAN IN STAGE 3 (APPLICATION). WHAT DO YOU THINK?*
