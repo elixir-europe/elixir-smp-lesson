@@ -27,6 +27,7 @@ tags:
 #### a. Document the way people should cite the software
 
 > *Narrative*: Explain that including citation information gives recognition to those participating in the development and mention some possible options.
+> 
 > Similar to a scientific article, a software also has a title, a description, and co-authors (i.e., people involved in the development from its conception to its deployment), and all of those elements are part of a software citation. 
 > Software citation should be included for the code source and releases (different releases can involve different co-authors) by using a [CFF file]( https://citation-file-format.github.io/), [bibtex]( http://www.bibtex.org) of JSON-LD (for instance following [CodeMeta]( https://codemeta.github.io/) or [Bioschemas Computation Tool]( https://bioschemas.org/profiles/ComputationalTool) specifications).
 
@@ -62,18 +63,19 @@ tags:
     ??? danger "Solution"
     
         There are many :worried:
-        If any of your repos follow here, please start adding citation information now :relaxed:
+        If any of your repos fall in the no citation bag, please start adding citation information now :relaxed:
 
- !!! example "Challenge 3"
+!!! example "Challenge 3"
 
     Discuss with your peers who should be included as co-author for a software. What practices are followed in your team?
     
     ??? danger "Solution"
     
-        Be aware that co-authorship practices might change from team to team. If some roles are not included as co-authors, it is a godd practice to still name them in the software repositories as contributors recognising their role in the development.      
+        Be aware that co-authorship practices might change from team to team. If some roles are not included as co-authors, it is a godd practice to still name them in the software repositories as contributors recognising their role in the development.
 
 #### b. Create a release
 > *Narrative*: Explaing what a release is and what elements should be present.
+> 
 > Whenever a software has been upgraded with some additional, revised or improved functionality, it is a good practice to create a new release, accompanied by a CHANGELOG explaining what is new wrt the previous release.
 
 > **Learning experience**
@@ -91,6 +93,7 @@ tags:
 #### c. Decide where to publish your software/release
 
 > *Narrative*: Explain options to publish/deposit software.
+> 
 > Whether a journal-style or a deposition is chosen, either way software/releases should be published. Even if the source code is not open, it is still useful to let the world know about the existence of a pieace of software. 
 
 > **Learning experience**
@@ -108,6 +111,7 @@ tags:
 #### d. Create persistent, global and unique identifiers that point to each released version of the software 
 
 > *Narrative*: Outline some options for generating persistent identifiers for software and the sort of identifiers that exist.
+>
 > Somehow this goes hand-in-hand with "where to publish your software" as some kind of identifier will be assigned to your software/release in the examples given for platforms where to publish software. There are two main kind of identifiers, intrinsic (e.g., hashcode calculated from the source code) and extrinsic (assigned by the platform where the software is published/deposited).
 
 > **Learning experience**
@@ -120,11 +124,12 @@ tags:
 
     ??? danger "Solution"
 
-    Pros and cons of the different alternatives to identify software/releases. Hint: depending on your requirements, you might want to go for multiple publishing platforms.
+        Pros and cons of the different alternatives to identify software/releases. Hint: depending on your requirements, you might want to go for multiple publishing platforms.
 
 #### e. Register your software in a community-driven registry
 
 > *Narrative*: Outline some options to register software.
+> 
 > Community-driven registries will make your software even more findable, specially for your own community. 
 > Communities can be broad, e.g., research software engineers, specific to a particular purpose, e.g., used for machine learning purposes, specific to a particular community, e.g., bioinformaticians.
 
@@ -138,7 +143,7 @@ tags:
 
     ??? danger "Solution"
 
-    Two examples are [Research software directory](https://research-software-directory.org/) and [bio.tools](https://bio.tools/)
+        Two examples are [Research software directory](https://research-software-directory.org/) and [bio.tools](https://bio.tools/)
 
 ### 2. For each decision, explain **why** it's important. 
 
@@ -174,6 +179,7 @@ e. Registries
 > *Narrative*:  
 > 
 > Enumerate the questions: 
+>
 > - Documentation 1.a.5. Release notes
 > - Documentation 1.a.7. CHANGELOG
 > - [Not covered in the lesson] Versioning 2. Do you use semantic versioning?
