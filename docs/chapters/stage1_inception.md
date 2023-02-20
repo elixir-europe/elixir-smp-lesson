@@ -14,6 +14,7 @@ tags:
 
 - Eva Martín del Pico [:custom-orcid:](https://orcid.org/0000-0001-8324-2897)
 - José Mª Fernández [:custom-orcid:](https://orcid.org/0000-0002-4806-5140)
+- Renato Alves [:custom-orcid:](https://orcid.org/0000-0002-7212-0234)
 
 !!! info
 
@@ -25,11 +26,11 @@ tags:
 
 #### a. decide the software programming language or framework for your research project.
 
- > *Narrative*: Explain that any programming language is fine to write the software which helps on the research of your scientific problem, but sometimes there are restrictions.
- > First of all, if you only have experience with a single programming language, then the choice of software code language used in the project is almost taken.
- > Any programming language (and its ecosystem) has its own strong points and weaknesses. Most of the time any programming language can be used. You should choose the one you are comfortable with.
- > But sometimes you do not have choice, because either you only know a single programming language, or you are aiming to use specialised hardware, and / or the existing libraries which will cut down the needed development time are tied to one or another language.
- > In some cases, it is the target ecosystem the determining point. Software communities like bioconductor, machine learning, bioconda or text mining, for instance, only provides feedback on their favoured programming languages.
+ > *Narrative*: Explain that any programming language is, in principle, fine to write software that helps with the research of your scientific problem, but sometimes there are additional factors to consider.
+ > First of all, if you only have experience with a single programming language, the choice of software code language used in the project will naturally be restricted.
+ > Any programming language (and its ecosystem) has its own strong points and weaknesses. Most of the time any programming language can be used. You should consider all these aspects alongside your comfort with the language in question.
+ > Sometimes you don't really have a choice. Contraints of the problem, need of use of specialised hardware, and/or existence of libraries, that will cut down the needed development time, being tied to a specific language.
+ > In some cases, it is the target ecosystem the determining point. Software communities like bioconductor, machine learning, bioconda or text mining, for instance, only provide feedback on their favoured programming languages.
  
  >**Learning experience**
  >
