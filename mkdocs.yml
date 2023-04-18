@@ -4,11 +4,11 @@ nav:
     - Learner Profiles: profiles.md
     - Chapters:
       - "Introduction": chapters/ch0_introduction.md
-      - "Stage 1: Inception": chapters/ch0_start.md
-      - "Stage 2: Construction": chapters/ch2_construction.md
-      - "Stage 3: Application": chapters/ch3_application.md
-      - "Stage 4: Production": chapters/ch4_production.md
-      - "Stage 5: Publication": chapters/ch5_publication.md
+      - "Chapter 1: Start": chapters/ch0_start.md
+      - "Chapter 2: Construction": chapters/ch2_construction.md
+      - "Chapter 3: Application": chapters/ch3_application.md
+      - "Chapter 4: Production": chapters/ch4_production.md
+      - "Chapter 5: Publication": chapters/ch5_publication.md
       - "Conclusions": chapters/ch6_wrap-up_conclusions.md
     - General info:
       - Pre-course setup: precourse.md
