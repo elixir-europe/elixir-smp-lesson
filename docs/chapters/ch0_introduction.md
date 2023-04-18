@@ -26,7 +26,7 @@ tags:
     2. Coding experience is useful, but not necessary
 
 3. Goals
-    1. Understand which parts of the SMP are critical for each Software Development Stage
+    1. Understand which parts of the SMP are critical at various points of the Software Development process.
     2. Understand the implications of the different choices provided in the SMP.
     3. Be able to fill in the required information across all sections of the SMP in the ELIXIR Software Management Wizard (SMW)
 
@@ -36,8 +36,7 @@ tags:
 1. Explain what is the purpose of a management plan and why this is a good practice for Open Science.
 2. List/Highlight what are the key differences between managing data and managing software.
 3. Identify the two main groups of stakeholders for the ELIXIR SMP.
-4. Describe the five Software Development Stages.
-6. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
+4. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
 
 ### LO: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
 ### LO: List the key differences between managing data and managing software.
