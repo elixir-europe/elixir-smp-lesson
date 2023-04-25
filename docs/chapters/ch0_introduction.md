@@ -36,7 +36,8 @@ tags:
 1. Explain what is the purpose of a management plan and why this is a good practice for Open Science.
 2. List/Highlight what are the key differences between managing data and managing software.
 3. Identify the two main groups of stakeholders for the ELIXIR SMP.
-4. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
+4. Describe the five Software Development Stages.
+5. Access the SMW and create a project, i.e. a workspace where you can create your SMP 
 
 ### LO: Explain what is the purpose of a management plan and why this is a good practice for Open Science.  
 ### LO: List the key differences between managing data and managing software.
@@ -85,15 +86,14 @@ There are a few flavours of SMPs already available in one form or another. The S
 > **Group 1: Users / Benefiter / Enforcers**
 This group includes stakeholders that require access to the SMP for a given software, but are not responsible for filling it in.
 > *Funders (e.g ELIXIR, Wellcome Trust)*
-> – Use the SMP in order to assess whether a software fits the funding requirement (e.g be in Stage 4).  
+> – Use the SMP in order to assess whether a software fits the funding requirements (e.g adhere to FAIR principles).  
 > – Evaluate if the proposal addresses essential aspects of Research Software Management (incl. “scoring” the software based on their alignment to best practices).  
-> – Ensure that the software is well-done (reproducible, reusable/open, robust) andfunding is not wasted.    
+> – Ensure that the software is well-done (reproducible, reusable/open, robust) and funding is not wasted.    
 > *Policy Makers (e.g. European Commission can use SMPs as a way of “enforcing” their recommendations and policies)*  
 > – Use the SMP as a basis, inspiration or requirements for their guidelines or policies in their domain of action.  
 > *Service providers* (e.g. Compute Platform, PaaS, IaaS, SaaS use an SMP in order to ensure compatibility to the minfrastructure offered).  
 > – A service provider would use the SMP to assess if the software meets the qualityand reproducibility standards of the platform. The SMP can therefore also be used as a requirement.   
-> – To assess the level of maintenance effort necessary to provide access to the software on their platform
-> – The different stages described in the SMP can also be used to label software according to their expected reliability (e.g. tools in experimental phase).  
+> – To assess the level of maintenance effort necessary to provide access to the software on their platform 
 > *Software manager not necessarily contributing to the software - making sure principles are enforced*.  
 > – To assess if the software is reliable for ongoing research projects or during the conceptualisation phase of new research projects.   
 > – To assess if the development process of software is compatible with the timeframe of research projects.  
@@ -119,7 +119,7 @@ This group includes stakeholders that require access to the SMP for a given soft
 > – To ensure there is supporting infrastructure at the organisation level.  
 > – To ensure there is a training program / supporting personnel, supporting skillnecessary to implementing the SMP (e.g. software stewards).  
 
-### LO:Describe the five Software Development Stages.
+### LO: Describe the five Software Development Stages.
 
 #### The ELIXIR Software Management Plan
 
@@ -128,11 +128,11 @@ In terms of structure, the ELIXIR SMP comprises seven areas relevant for softwar
 
 
 > **Exercise**:  The five stages of software development are:    
-> Stage 1: Inception (concept, proposal writing, planning and inception)  
+> Stage 1: Getting started (requirements, specifications, planning)  
 > Stage 2: Construction (prototyping, construction and implementing core functionality)   
 > Stage 3: Application (release and quality assessment)  
 > Stage 4: Production (production software working on real-world data in a scalable and stable manner)   
-> Stage 5: Publication (Publishing software and/or research results ob- tained with the software)   
+> Stage 5: Publication (Publishing software and/or research results obtained with the software)   
 > Think about research software you develop (or is developed in your group by others): can you clearly recognise the five phases? When you start a new software project, do you plan its development according to the five stages? When there are more than one contributor to the project, do you assign roles according to the stages?
 > **Solution**: Write your answers on a shared document. The instructor discuss most interesting answers.
 > 
