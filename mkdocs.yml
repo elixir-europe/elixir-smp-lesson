@@ -4,7 +4,7 @@ nav:
     - Learner Profiles: profiles.md
     - Chapters:
       - "Introduction": chapters/ch0_introduction.md
-      - "Chapter 1: Start": chapters/ch0_start.md
+      - "Chapter 1: Start": chapters/ch1_start.md
       - "Chapter 2: Construction": chapters/ch2_construction.md
       - "Chapter 3: Application": chapters/ch3_application.md
       - "Chapter 4: Production": chapters/ch4_production.md

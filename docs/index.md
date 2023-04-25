@@ -11,10 +11,10 @@ This lesson guides through how to complete a Software Management Plan (SMP), int
 The lesson was designed with different target audiences in mind.
 Visit [the learner profiles page](profiles/) if you would like to find if the lesson could be useful to you.
 
-- [Introduction](chapters/introduction/)
-- [Stage 1: Inception](chapters/stage1_inception/)
-- [Stage 2: Construction](chapters/stage2_construction/)
-- [Stage 3: Application](chapters/stage3_application/)
-- [Stage 4: Production](chapters/stage4_production/)
-- [Stage 5: Publication](chapters/stage5_publication/)
-- [Conclusions](chapters/conclusions/)
+- [Introduction](chapters/ch0_introduction/)
+- [Chapter 1: Start](chapters/ch1_start/)
+- [Chapter 2: Construction](chapters/ch2_construction/)
+- [Chapter 3: Application](chapters/ch3_application/)
+- [Chapter 4: Production](chapters/ch4_production/)
+- [Chapter 5: Publication](chapters/ch5_publication/)
+- [Wrap-up and Conclusions](chapters/ch6_wrap-up_conclusions/)
