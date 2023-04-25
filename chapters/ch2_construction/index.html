@@ -1,0 +1,977 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "LearningResource",
+    "@id": "https://elixir-europe.github.io/elixir-smp-lesson/",
+    "http://purl.org/dc/terms/conformsTo": {
+        "@type": "CreativeWork",
+        "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+    },
+    "description": "Lesson on concepts and information required to create an ELIXIR Software Management Plan using the ELIXIR SMP Wizard",
+    "keywords": "ELIXIR, SMP, Software Management Plan, SMW, OPEN, Bioinformatics, Teaching, Train-the-trainer",
+    "name": "ELIXIR Software Management Plan lesson",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
+    
+      
+        <title>Chapter 2: Construction - ELIXIR Software Management Plan lesson</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ded33207.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stage-2-construction-prototyping-construction-and-implementing-core-functionality" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+This lesson is under active development and considered pre-alpha.
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ELIXIR Software Management Plan lesson" class="md-header__button md-logo" aria-label="ELIXIR Software Management Plan lesson" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ELIXIR Software Management Plan lesson
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 2: Construction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/elixir-europe/elixir-smp-lesson" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe/elixir-smp-lesson
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../profiles/" class="md-tabs__link">
+      Learner Profiles
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ch0_introduction/" class="md-tabs__link md-tabs__link--active">
+        Chapters
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../precourse/" class="md-tabs__link">
+        General info
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ELIXIR Software Management Plan lesson" class="md-nav__button md-logo" aria-label="ELIXIR Software Management Plan lesson" data-md-component="logo">
+      
+  <img src="../../assets/images/white-orange-logo.png" alt="logo">
+
+    </a>
+    ELIXIR Software Management Plan lesson
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/elixir-europe/elixir-smp-lesson" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    elixir-europe/elixir-smp-lesson
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../profiles/" class="md-nav__link">
+        Learner Profiles
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Chapters
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Chapters
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch0_introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch1_start/" class="md-nav__link">
+        Chapter 1: Start
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Chapter 2: Construction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Chapter 2: Construction
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    Learning Outcomes:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-or-ensuring-software-functions-as-intended" class="md-nav__link">
+    Testing or ensuring software functions as intended
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing or ensuring software functions as intended">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#different-common-types-of-testing-approaches" class="md-nav__link">
+    Different (common) types of testing approaches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-example-input-and-output-files" class="md-nav__link">
+    Sample example input and output files.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting-your-code" class="md-nav__link">
+    Documenting your code
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting your code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documenting-scope-goals-and-purpose-of-the-software" class="md-nav__link">
+    Documenting scope, goals and purpose of the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch3_application/" class="md-nav__link">
+        Chapter 3: Application
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch4_production/" class="md-nav__link">
+        Chapter 4: Production
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch5_publication/" class="md-nav__link">
+        Chapter 5: Publication
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch6_wrap-up_conclusions/" class="md-nav__link">
+        Conclusions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          General info
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          General info
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../precourse/" class="md-nav__link">
+        Pre-course setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_schedule/" class="md-nav__link">
+        Course schedule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../instructor-notes/" class="md-nav__link">
+        Instructor Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../keywords/" class="md-nav__link">
+        Keywords list
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    Learning Outcomes:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-or-ensuring-software-functions-as-intended" class="md-nav__link">
+    Testing or ensuring software functions as intended
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing or ensuring software functions as intended">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#different-common-types-of-testing-approaches" class="md-nav__link">
+    Different (common) types of testing approaches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-example-input-and-output-files" class="md-nav__link">
+    Sample example input and output files.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting-your-code" class="md-nav__link">
+    Documenting your code
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting your code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documenting-scope-goals-and-purpose-of-the-software" class="md-nav__link">
+    Documenting scope, goals and purpose of the software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <a href="../../keywords/#construction" class="md-tag">Construction</a>
+      
+    
+      
+      
+        <a href="../../keywords/#prototype" class="md-tag">Prototype</a>
+      
+    
+      
+      
+        <a href="../../keywords/#core-features" class="md-tag">Core features</a>
+      
+    
+  </nav>
+
+
+
+  
+  
+
+
+<!-- BEGIN INCLUDE ../links.md -->
+<!-- 
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use. 
+ -->
+
+<!-- END INCLUDE -->
+
+<h1 id="stage-2-construction-prototyping-construction-and-implementing-core-functionality">Stage 2: Construction (prototyping, construction and implementing core functionality)<a class="headerlink" href="#stage-2-construction-prototyping-construction-and-implementing-core-functionality" title="Permanent link">#</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This is the stage in which the main development of the software is taking place and its core functionality is developed in an iterative process. The software will most likely be developed with the use of toy example input data, developers will document the code while writing it (inline documentation, docstrings etc.). It is also important to ensure that the code functions as intended (e.g. via unit tests or doctests).</p>
+</div>
+<h4 id="learning-outcomes">Learning Outcomes:<a class="headerlink" href="#learning-outcomes" title="Permanent link">#</a></h4>
+<p><strong>1. Describe what are the key decisions that need to be made during the Construction phase.</strong></p>
+<p>What is important? During the Construction phase, there are two main types of important decisions that should be taken:
+1. How will you test your software? How will you make sure it works as intended? This also includes decisions about sample input data that will be used to test the software, as well as decisions about what will be the output of your software.
+2. How are you going to document your code? The documentation should describe not only what the various parts of code do, but also the actual scope, goals and purpose of the software and how to test it. Therefore, you should decide what would be effective ways to document your software.</p>
+<h3 id="testing-or-ensuring-software-functions-as-intended">Testing or ensuring software functions as intended<a class="headerlink" href="#testing-or-ensuring-software-functions-as-intended" title="Permanent link">#</a></h3>
+<blockquote>
+<p><em>Narrative</em>: </p>
+</blockquote>
+<p>There are several types of software testing, which can be broadly categorized into the following categories:
+- Unit testing: Testing individual units or components of the software project to ensure they function as intended.
+- Integration testing: Testing the integration of different components or modules of the software project to ensure they work together as expected.
+- Functional testing: Testing the software&rsquo;s functionality to ensure it works as specified and meets the requirements.
+- System testing: Testing the entire software system to ensure it meets the requirements and works as intended. 
+- Exploratory testing: Ad-hoc testing performed by testers to discover new or unexpected issues in the software.
+- Regression testing: Testing the software after changes have been made to ensure the changes did not introduce new bugs or issues.
+- Non-functional testing: Testing the software&rsquo;s non-functional aspects, such as performance, security, usability, and compatibility.
+- Stress testing: Testing the software under extreme or unrealistic conditions to determine its performance and stability limits.
+- Acceptance testing: Testing the software to ensure it meets the customer&rsquo;s acceptance criteria and is ready for release.</p>
+<p>Not all kinds of testing are necessary for every project.</p>
+<blockquote>
+<p><strong>Learning Experience</strong> - <em>Exercise</em>: </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 1</p>
+</div>
+<blockquote>
+<p>Learners answer individually the following questions in a shared document: 
+Think about a piece of software you recently developed or you&rsquo;re developing.
+- Did you test it? / Are you testing it?
+- Which testing approach(es) are you using?
+- Does your testing approach also include sample example input and output files?
+- If yes, what are the relevant features of such files?
+- Which testing approach(es) do you use normally? Would you be able to make a list of the types of tests you usually implement and of the corresponding relevant test parameters?</p>
+<p>The instructor will discuss the answers and use the discussion as a starting point to deliver the content below.  </p>
+<p><strong>Learning Experience</strong> - <em>Discussion</em> </p>
+</blockquote>
+<div class="admonition question">
+<p class="admonition-title">Discussion</p>
+</div>
+<p>Do you do test-driven development? Why/why not? </p>
+<blockquote>
+<p><strong>Learning Experience</strong> - <em>Exercise</em>: </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 2</p>
+</div>
+<p>Think of a familiar case where test-driven development was not applied (or was not applicable, like in a fast-pace developing environment, early stages of development, prototyping, &hellip;). Describe:</p>
+<ul>
+<li>Two situations where a test was necessary and why.</li>
+<li>Two situations where a test was prescindible and why.</li>
+</ul>
+<hr />
+<blockquote>
+<p><em>Narrative............................... 
+NOTE: I REALISED THE NARRATIVE REGARDING </em><em>DIFFERENT (COMMON) TYPES OF TESTING APPROACHES</em><em> I WANTED TO INSERT HERE IS ALREADY PRESENT IN STAGE 3 (WRITTEN BY EVA). I BELIEVE IT WOULD FIT BETTER HERE (CONSTRUCTION) THAN IN STAGE 3 (APPLICATION). WHAT DO YOU THINK?</em></p>
+</blockquote>
+<h4 id="different-common-types-of-testing-approaches">Different (common) types of testing approaches<a class="headerlink" href="#different-common-types-of-testing-approaches" title="Permanent link">#</a></h4>
+<blockquote>
+<p>&ndash;&gt; None, Unit, Integration, Functional, End-to-end, Linting, Regression, Frontend - GUI, Other (e.g.)
+</p>
+</blockquote>
+<hr />
+<h4 id="sample-example-input-and-output-files">Sample example input and output files.<a class="headerlink" href="#sample-example-input-and-output-files" title="Permanent link">#</a></h4>
+<p>Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended.
+These files should have the same format and content type of the actual data files, i.e. those for which the software is being developed. However, they should <em>not</em> be the actual data files, as these cannot be always kept under control and it may be difficult to decipher how your software behaves when running on actual data file. Aspects you should think about when you create toy example input data are:
+- <em>file size</em>. The the size of the file should be such that you have complete control over input and output. Ideally, you should be able to do manually the calculations that your software does automatically, so that you know in advance what you can expect the output file will contain. Unless you specifically need to test the performance of the software on big data files, the smaller the input file size, the better.
+- <em>file format</em>. Input file format need to be exactly the same as the actual data files. 
+- <em>file content</em>. The content of the file should be exactly of the same type of the actual data file and include all the possibilities and potential exceptions that could be observed in actual data. </p>
+<h3 id="documenting-your-code">Documenting your code<a class="headerlink" href="#documenting-your-code" title="Permanent link">#</a></h3>
+<p><em>&ldquo;The secret to good documentation is to write it while you&rsquo;re writing the code. You are your first audience. Explain what you&rsquo;re doing to yourself. Future you will thank you!&rdquo;</em>
+—- <a href="https://twitter.com/victoriadotdev/status/1331262801797652483?ref_src=twsrc%5Etfw">Victoria Drake November 24, 2020</a> &ndash;</p>
+<h4 id="documenting-scope-goals-and-purpose-of-the-software">Documenting scope, goals and purpose of the software<a class="headerlink" href="#documenting-scope-goals-and-purpose-of-the-software" title="Permanent link">#</a></h4>
+<p>The first thing to document about a software is its purposes. These are: the intended outcome that it is designed to achieve; what problem it solves; why it is being created; etc&hellip; The main purpose of a software can be defined in terms of user needs, technical requirements, problems to solve, etc&hellip; It needs to include both the scope and constraints of the software. </p>
+<p>Defining the purpose of a software piece is a crucial step in the software development process, as it provides insight, direction and focus to the development team. It also helps to ensure that the software meets the needs and expectations of its intended users. A clear definition of the software&rsquo;s purpose can also help to guide decision making throughout the development process, and it should be used to evaluate the success of the software after its release.</p>
+<blockquote>
+<p><strong>Learning Experience</strong> - <em>Exercise</em>: </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 2</p>
+</div>
+<blockquote>
+<ol>
+<li>In groups, each learner will describe to the other group memebers: 
+- What are the actual scope, goals and purpose of their software (referring to a piece of software they recently developed or are developing); 
+- How will scope, goals and purpose be documented;
+- What type of documentation is available or they plan to make available.</li>
+<li>Each group will then discuss purposes, advantages and disadvantages of the various ways of documenting software/code.</li>
+<li>The instructor will facilitate a discussion on &ldquo;How many different ways can be used to document software? Is there any that is more effective than others?&rdquo;</li>
+</ol>
+<p>*Narrative: Effective ways to document your project</p>
+<p>From the <a href="https://guides.lib.berkeley.edu/how-to-write-good-documentation">Berkley Library Guide on how to write good documentation</a>:
+Best Practices for Writing Documentation:</p>
+<ol>
+<li>Include a README file that contains:
+- A brief description of the project
+- Installation instructions
+- A short example/tutorial</li>
+<li>Allow issue tracker for others</li>
+<li>Write an API documentation
+- What a function does
+- What are the function&rsquo;s parameters or arguments are
+- What a function returns</li>
+<li>Document your code</li>
+<li>Apply coding conventions, such as file organization, comments, naming conventions, programming practices, etc.</li>
+<li>Include information for contributors</li>
+<li>Include citation information</li>
+<li>Include licensing information</li>
+<li>Link to your e-mail address at the end</li>
+<li>List all the versions of the files along with the major edits you did in each version</li>
+</ol>
+<p><strong>Learning Experience</strong> - <em>Exercise</em> </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 1</p>
+</div>
+<p>Think of two pieces or components of software you normally use. 
+  Imagine you are working on a new project where you have to provide the compound usage to a third party. But, unfortunatedly, you cannot redistribute the compound usage due to some licensing incompatibilities. Your only alternative is to develop one or both from scratch for your usual purposes. In the worst scenario, two colleagues, both experienced research software engineers, should help you with the reimplementations to speed up the process.</p>
+<p>To help them get a clear idea of what you want to build, for each software, define: </p>
+<ol>
+<li>
+<p>Purpose, scope and constraints. </p>
+</li>
+<li>
+<p>Two functional tests the finished software components must be able to pass.</p>
+</li>
+</ol>
+<p><strong>2. For each decision, explain why it’s important.</strong></p>
+<blockquote>
+<p><strong>Learning Experience</strong> - <em>Exercise</em>: </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 3</p>
+</div>
+<blockquote>
+<p>The instructor will facilitate a discussion on the following three spects:
+ - &ldquo;Why defining functional tests is important?
+ Why sample input and output files are necessary? 
+ What&rsquo;s the purpose of documenting software?&rdquo; </p>
+<p><em>Narrative</em>
+Why is it important? Sample input and output files are necessary for the development of functioning software, and for ensuring that it works as intended. Having the purpose (scope, and possible constraints) of the software clearly documented is necessary in focussing the development effort and avoiding feature creep. It is also crucial towards defining functional tests. Tests can also act as documentation by showing how the software can be executed and configured, but they should not be a replacement for the in-depth documentation.</p>
+</blockquote>
+<p>Defiining how your software will be tested during development is essential to ensure that the code functions as intended. Tests can also act as documentation by showing how the software can be executed and configured</p>
+<p>Including sample example input and output files is absolutely necessary for the development of functioning software, and for ensuring that it works as intended.</p>
+<p>Writing good documentation to your software will help create more readable and efficient code with minimal errors. It is necessary in focussing the development effort and avoiding feature creep, and crucial in defining functional tests.</p>
+<blockquote>
+<p>From the <a href="https://guides.lib.berkeley.edu/how-to-write-good-documentation">Berkley Library Guide on how to write good documentation</a>:</p>
+<p>Documentation effectively connects humans and machines.</p>
+<p>Why writing documentation is important:
+For you:
+- You will be using your code in 6 months
+- You want people to use your code and give you credit
+- You want to learn self-determination
+- Others would be encouraged to contribute to your code
+For others: 
+- Others can easily use your code and build upon it
+For science:
+- Advances the science
+- Encourages open science 
+- Allows reproducibility and transparency</p>
+</blockquote>
+<p><strong>3.Identify the specific SMP questions that are relevant in this Phase.</strong></p>
+<p>SMP questions relevant to this phase:</p>
+<p>1) Documentation: What type of documentation is available, provided with the software and delivered under the same conditions? Please provide a URL (when available).
+2) Documentation: Is the purpose of the software stated in the documentation?
+3) Documentation: Does the documentation describe how to test the software?
+4) Testing: What type of testing do you use?
+5) Testing: Are sample data and/or parameters that can be used to test the software available with the source code?</p>
+<p><strong>4.Using the ELIXIR SMW, fill in the appropriate information to each SMP question that is relevant to this Phase.</strong></p>
+<blockquote>
+<p><strong>Learning Experience</strong> - <em>Exercise</em>: </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Challenge 3</p>
+</div>
+<p>Go to the project in the <a href="https://smw.ds-wizard.org/">SMW</a> and complete the previous questions for a piece of software.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
